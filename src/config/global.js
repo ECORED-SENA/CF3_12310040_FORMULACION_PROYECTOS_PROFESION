@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Puesta en marcha y financiación del proyecto',
+    Description:
+      'Este componente orienta al aprendiz en la identificación de fuentes de financiación y en el análisis de estrategias necesarias para la puesta en marcha de un proyecto. Se abordan elementos relacionados con la gestión de recursos económicos, la elaboración de presupuestos y la evaluación de alternativas financieras, así como la definición de estrategias de implementación, organización de recursos y planificación de actividades.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,43 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Financiación del proyecto',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de financiación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Importancia de la financiación en los proyectos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Fuentes de financiación',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Requisitos y condiciones de financiación',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Presupuesto del proyecto',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Plan de negocio',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Ejemplo aplicado de financiación de un proyecto ',
+            hash: 't_1_7',
           },
         ],
       },
@@ -45,14 +80,63 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Puesta en marcha del proyecto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto de puesta en marcha',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Importancia de la implementación del proyecto',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Estrategias de implementación',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Cronograma del proyecto',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Plan de puesta en marcha',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Ejemplo aplicado de puesta en marcha ',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Integración final del proyecto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Relación entre financiación y ejecución',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Consolidación del proyecto',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Preparación para la implementación',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
