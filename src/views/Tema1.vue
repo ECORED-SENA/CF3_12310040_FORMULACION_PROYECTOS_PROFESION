@@ -138,14 +138,871 @@
       .col-lg-5.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img5.png", data-aos="zoom-in" style="max-width: 458px")          
-
-
-
-
-
-
-
-          
+    p(data-aos="fade-left") Para comprender su aporte en la gestión de proyectos, se desarrolla a continuación una descripción general:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Disponibilidad de recursos
+                        p.card-text.text-center
+                        | Garantiza capital para operar, adquirir insumos y ejecutar actividades.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta02_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Planeación financiera
+                        p.card-text.text-center
+                        | Organiza ingresos, costos y gastos conforme a metas definidas.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Reducción del riesgo
+                        p.card-text.text-center
+                        | Disminuye retrasos e imprevistos derivados de falta de recursos.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Uso eficiente de recursos
+                        p.card-text.text-center
+                        | Facilita priorización y control del presupuesto.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Viabilidad económica
+                        p.card-text.text-center
+                        | Permite determinar si el proyecto es sostenible y rentable.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img6.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") Adicionalmente, la financiación facilita la toma de decisiones estratégicas, ya que permite priorizar actividades, ajustar el alcance del proyecto y definir mecanismos de control financiero.
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, en proyectos con recursos limitados, una adecuada gestión financiera permite identificar cuáles actividades deben ejecutarse primero y cuáles pueden ajustarse o reprogramarse, garantizando el cumplimiento de los objetivos principales.
+    Separador
+    //- Inicio Tema1.3
+    .row.mt-5
+        #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.3 Importancia de la financiación en los proyectos
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 Las fuentes de financiación corresponden a los mecanismos mediante los cuales se obtienen los recursos económicos necesarios para el desarrollo del proyecto. Estas fuentes pueden clasificarse según su origen, naturaleza y condiciones de acceso, lo que permite identificar diferentes alternativas de financiación de acuerdo con las características y necesidades del proyecto. La selección de una fuente de financiación requiere analizar variables clave que inciden directamente en la sostenibilidad financiera. Entre las principales se encuentran:
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img8.png', style="object-fit: cover;")
+    //- Inicio Tarjetas
+    .row(data-aos="fade-right")
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3.align-items-center
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+          p.text-center Costo del capital.          
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+          p.text-center Nivel de riesgo.          
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+          p.text-center Condiciones de acceso.          
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+          p.text-center Impacto en la estructura financiera del proyecto.           
+    //- Fin Tarjetas
+    p(data-aos="fade-left") Para comprender mejor las opciones disponibles, se presenta la siguiente clasificación:
+    //- Pestanas horizontales
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Entidades financieras")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_1.png')
+              .col-md-6.mb-4.mb-md-0
+                h4 Entidades financieras
+                p Recursos obtenidos mediante créditos u otros productos financieros, sujetos a intereses y condiciones contractuales.
+          .py-3.py-md-4(titulo="Inversión privada")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_2.png')
+              .col-md-6
+                h4 Inversión privada
+                p Capital aportado por terceros a cambio de participación en utilidades, propiedad o decisiones estratégicas.
+          .py-3.py-md-4(titulo="Capital propio")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_3.png')
+              .col-md-6
+                h4 Capital propio
+                p Recursos aportados directamente por los propietarios o promotores del proyecto.
+          .py-3.py-md-4(titulo="Convocatorias y fondos de apoyo")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_4.png')
+              .col-md-6
+                h4 Convocatorias y fondos de apoyo
+                p Recursos concursables provenientes de entidades públicas o privadas, orientados al impulso de proyectos específicos.
+    //- Cierres Pestanas horizontales
+    p(data-aos="fade-left") La elección adecuada dependerá del nivel de madurez del proyecto, su capacidad de generar ingresos, el riesgo asumido y los objetivos estratégicos planteados.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Entidades financieras
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") Las entidades financieras representan una de las alternativas más utilizadas para la obtención de recursos externos. Sin embargo, su uso requiere un análisis técnico previo que permita determinar la conveniencia de asumir obligaciones crediticias dentro del proyecto.
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            .p-4.bg-color-6 
+              p.mb-4 En la práctica, el acceso a financiación mediante créditos implica evaluar la capacidad del proyecto para generar flujos de ingresos suficientes que permitan cumplir con las obligaciones adquiridas. Este análisis considera variables como:
+                .row.justify-content-center
+                  .col-md-6.col-lg-5
+                    ul.lista-ul.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-check-circle.me-2(style="color:#3a6673")
+                        p.mb-0 Monto del crédito. 
+                      li.d-flex.mb-2
+                        i.fas.fa-check-circle.me-2(style="color:#3a6673")
+                        p.mb-0 Tasa de interés efectiva. 
+                      li.d-flex.mb-2
+                        i.fas.fa-check-circle.me-2(style="color:#3a6673")
+                        p.mb-0 Plazos de amortización.                   
+                  .col-md-6.col-lg-5
+                    ul.lista-ul.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-check-circle.me-2(style="color:#3a6673")
+                        p.mb-0 Períodos de gracia. 
+                      li.d-flex.mb-2
+                        i.fas.fa-check-circle.me-2(style="color:#3a6673")
+                        p.mb-0 Garantías exigidas.
+              p Desde un enfoque aplicado, la financiación bancaria resulta adecuada cuando el proyecto presenta una estructura financiera sólida, proyecciones de ingresos estables y un nivel de riesgo controlado. En contraste, su uso en proyectos sin validación de mercado o sin flujo de ingresos definido puede generar desequilibrios financieros.          
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img9.png", data-aos="zoom-in" style="max-width: 458px")
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img10.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, en un proyecto de comercialización, acceder a un crédito para ampliar inventario puede ser viable si existe una demanda comprobada. De lo contrario, se incrementa el riesgo de incumplimiento.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Inversión privada
+    //- Título con imagen
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 La inversión privada constituye una alternativa de financiación que permite transferir parte del riesgo del proyecto a terceros, a cambio de una participación en los beneficios o en la toma de decisiones.
+        .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Desde una perspectiva técnica, este tipo de financiación requiere un proceso de valoración del proyecto, en el cual se analizan aspectos como el potencial de crecimiento, la rentabilidad esperada y la escalabilidad del modelo de negocio. 
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img11.png", data-aos="zoom-in" style="max-width: 458px")
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img12.png', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 Estos elementos son determinantes para atraer inversionistas y establecer condiciones de participación. En la práctica, la inversión privada es especialmente relevante en proyectos innovadores o con alto potencial de expansión, donde el acceso a capital permite acelerar su desarrollo. No obstante, implica ceder cierto nivel de control, aspecto que debe valorarse dentro de la estrategia general del proyecto.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Capital propio
+    //- Título con imagen
+    p(data-aos="fade-left") El uso de capital propio representa una alternativa de financiación que permite iniciar o desarrollar un proyecto sin generar obligaciones financieras externas. Sin embargo, su aplicación requiere un análisis cuidadoso del riesgo asumido y de la capacidad de recuperación de la inversión.
+    .row.mb-10
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img13.png", data-aos="zoom-in" style="max-width: 458px")
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0.bg-color-6.p-4 Desde un enfoque aplicado, el capital propio es recomendable en etapas iniciales del proyecto, cuando aún no se cuenta con suficiente validación para acceder a fuentes externas. Esta estrategia permite mantener el control total sobre el proyecto y facilita la toma de decisiones.
+        .row.align-items-start.mb-10(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") No obstante, el uso exclusivo de recursos propios puede limitar el crecimiento del proyecto, especialmente cuando se requieren inversiones mayores. Por esta razón, suele combinarse con otras fuentes de financiación en etapas posteriores.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Convocatorias y fondos de apoyo
+    //- Título con imagen
+    p(data-aos="fade-left") Las convocatorias y fondos de apoyo constituyen una alternativa de financiación que, en muchos casos, no implica la devolución de recursos, lo que las convierte en una opción favorable para el desarrollo de proyectos. Sin embargo, el acceso a estos recursos exige cumplir criterios técnicos específicos, entre los cuales se destacan:
+    //- Inicio Tarjetas
+    .row.justify-content-center(data-aos="fade-right")
+      .col-sm-10.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-0.h-100.bg-color-7.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_1.png', alt='').w-100
+          .p-4            
+            p.text-center.mb-0 Alineación del proyecto con los objetivos de la convocatoria. 
+      .col-sm-10.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-0.h-100.bg-color-7.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_2.png', alt='').w-100
+          .p-4            
+            p.text-center.mb-0 Calidad técnica de la propuesta presentada. 
+      .col-sm-10.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-0.h-100.bg-color-7.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_3.png', alt='').w-100
+          .p-4            
+            p.text-center.mb-0 Capacidad operativa y financiera para ejecutar el proyecto. 
+    //- Fin Tarjetas
+    .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") En la práctica, estos mecanismos de financiación resultan especialmente útiles en proyectos de innovación, emprendimiento o impacto social. No obstante, su carácter competitivo implica que no todos los proyectos logran acceder a estos recursos, por lo que deben asumirse como una alternativa complementaria y no como única fuente de financiación. En síntesis, una estrategia financiera sólida suele combinar diversas fuentes de financiación, equilibrando costo, riesgo y sostenibilidad según la etapa de desarrollo del proyecto.
+    Separador
+    //- Inicio Tema1.4
+    .row.mt-5
+        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.4 Requisitos y condiciones de financiación
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") La selección de una fuente de financiación no debe basarse únicamente en la disponibilidad de recursos, sino en el análisis de los requisitos y condiciones asociados, ya que estos determinan el impacto financiero del proyecto en el tiempo.
+    p(data-aos="fade-left") En términos técnicos, este análisis permite evaluar el costo real de la financiación, la capacidad de cumplimiento de las obligaciones y el nivel de riesgo asociado. Ignorar estos factores puede comprometer la viabilidad del proyecto, incluso si inicialmente se cuenta con los recursos necesarios. Para una adecuada toma de decisiones, es conveniente considerar los siguientes componentes:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Documentación requerida
+                        p.card-text.text-center
+                        | Sustenta la viabilidad técnica, financiera y legal del proyecto.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta05_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Tasas de interés
+                        p.card-text.text-center
+                        | Determinan el costo del dinero en el tiempo.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta05_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Plazos de pago
+                        p.card-text.text-center
+                        | Inciden en el valor de las cuotas y en el flujo de caja.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta05_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Garantías exigidas
+                        p.card-text.text-center
+                        | Respaldan el cumplimiento de las obligaciones financieras.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta05_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Viabilidad financiera
+                        p.card-text.text-center
+                        | Define la capacidad real del proyecto para sostener la financiación.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img14.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") El análisis integral de estos factores permite seleccionar alternativas acordes con la capacidad operativa y financiera del proyecto.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Documentación requerida
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") La documentación requerida en los procesos de financiación no debe entenderse únicamente como un requisito administrativo, sino como un instrumento técnico que permite sustentar la viabilidad del proyecto y respaldar la toma de decisiones por parte de entidades financieras o inversionistas.
+    p(data-aos="fade-left") Desde una perspectiva aplicada, la calidad, coherencia y precisión de la documentación influyen directamente en la posibilidad de acceder a recursos, ya que evidencian que el proyecto ha sido estructurado de manera organizada, con claridad en sus objetivos, costos y proyecciones. En términos técnicos, la documentación cumple tres funciones principales:
+    //- Inicio Tarjetas
+    .row.mt-5.justify-content-center.mb-5
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte financiero</b>
+          .card-body.bg-white
+            | Evidencia la estructura de costos, inversión y proyección de ingresos.
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte técnico</b>
+          .card-body.bg-white
+            | Describe el proyecto, su alcance y su viabilidad operativa.
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte estratégico</b>
+          .card-body.bg-white
+            | Demuestra la coherencia entre el problema identificado y la solución propuesta.
+    //- Fin Tarjetas
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Entre los documentos más relevantes se encuentran:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Plan de negocio. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Presupuesto detallado del proyecto. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Proyecciones financieras de ingresos y gastos. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Flujo de caja proyectado. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Documentación legal del solicitante.                  
+            p En la práctica, la elaboración rigurosa de esta documentación permite fortalecer la estructuración del proyecto y mejorar su nivel de credibilidad ante terceros. Entre sus principales aportes se destacan los siguientes:
+            ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Organiza la información estratégica de manera lógica y consistente. 
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Identifica debilidades técnicas o financieras antes de presentar la solicitud. 
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Permite ajustar costos, tiempos y proyecciones con criterios más realistas. 
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Facilita la evaluación externa por parte de entidades financiadoras. 
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Incrementa la confianza sobre la capacidad de ejecución del responsable del proyecto. 
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img15.png", data-aos="zoom-in" style="max-width: 458px")          
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, un proyecto con alto potencial comercial puede ser rechazado si presenta inconsistencias entre el presupuesto, las proyecciones financieras y el flujo de caja, ya que ello genera dudas sobre su viabilidad real.
+    p.mb-5(data-aos="fade-left") Para estructurar la documentación con criterio técnico, se recomienda desarrollar un proceso secuencial que garantice coherencia entre todos los componentes:
+    //- Inicio Infografia
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido(tipo="n")
+          .row
+            .col-lg
+              h3 Etapa 1
+              p Consolidar la información general del proyecto: objetivos, actividades, recursos y alcance. 
+              p <b>Resultado esperado:</b> base técnica organizada.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea01_1.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea01_2.png').img125
+            .col-lg.text-start
+              h3 Etapa 2
+              p Elaborar el presupuesto detallado con costos directos e indirectos. 
+              p <b>Resultado esperado:</b> necesidades reales de inversión definidas.
+          .row
+            .col-lg
+              h3 Etapa 3
+              p Construir proyecciones de ingresos y gastos con supuestos sustentados. 
+              p <b>Resultado esperado:</b> escenario financiero estimado.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea01_3.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea01_4.png').img125
+            .col-lg.text-start
+              h3 Etapa 4
+              p Diseñar el flujo de caja proyectado por periodos. 
+              p <b>Resultado esperado:</b> capacidad de liquidez identificada.
+          .row
+            .col-lg
+              h3 Etapa 5
+              p Integrar toda la información en el plan de negocio o expediente financiero. 
+              p <b>Resultado esperado:</b> documento final listo para presentar.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea01_5.png').img125          
+    //- Fin Infografia
+    p(data-aos="fade-left") Este proceso favorece la coherencia entre los diferentes componentes del proyecto, mejora la calidad de la solicitud y aumenta la probabilidad de acceder a financiación en mejores condiciones.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Tasas, plazos y condiciones
+    //- Título con imagen
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-5.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las tasas, plazos y condiciones constituyen los elementos que determinan el costo real de la financiación y su impacto en la sostenibilidad del proyecto. Por esta razón, su análisis debe realizarse de manera técnica antes de tomar cualquier decisión.
+    p(data-aos="fade-left") Desde un enfoque aplicado, no basta con conocer el monto solicitado. También es necesario revisar las condiciones bajo las cuales se otorga el financiamiento, ya que estas pueden afectar la rentabilidad, la liquidez y la capacidad operativa del proyecto. Para comprender mejor estos factores, se presentan los principales elementos de análisis:
+    //- Inicio Tarjetas
+    .row.mt-5.justify-content-center.mb-5(data-aos="fade-right")
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Tasa de interés</b>
+          .card-body.bg-white.rounded-4
+            | Representa el costo del dinero en el tiempo. Puede ser fija o variable.
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Plazo de financiación</b>
+          .card-body.bg-white.rounded-4
+            | Tiempo establecido para el pago total de la obligación.
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Período de gracia</b>
+          .card-body.bg-white.rounded-4
+            | Tiempo durante el cual no se realizan pagos de capital o se pagan parcialmente.
+      .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
+        .card.h-100.border-0.shadow-sm
+          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Garantías</b>
+          .card-body.bg-white.rounded-4
+            | Respaldos exigidos por la entidad financiera para aprobar el crédito.
+    //- Fin Tarjetas
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Cada uno de estos componentes influye directamente en el valor total a pagar, en el monto de las cuotas periódicas y en el nivel de riesgo asumido. En la práctica, revisar estas variables permite:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Comparar distintas alternativas de financiación. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Seleccionar una opción acorde con la capacidad de pago. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Evitar sobrecargas financieras futuras. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Ajustar el presupuesto del proyecto. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Mejorar la sostenibilidad financiera. 
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img18.png", data-aos="zoom-in" style="max-width: 458px")          
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img19.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, elegir una alternativa con baja tasa de interés, pero sin período de gracia, puede afectar proyectos que requieren varios meses para iniciar la generación de ingresos. Aunque el costo financiero aparente ser menor, la presión sobre la liquidez inicial puede comprometer la operación.
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 Para reducir riesgos financieros y seleccionar una opción conveniente, se recomienda seguir este proceso:
+          ol.lista-ol--cuadro.ms-4
+            li.d-flex.mb-3.mt-3 
+              .lista-ol--cuadro__vineta
+                span A
+              | Identificar las alternativas disponibles. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span B
+              | Comparar tasas de interés efectivas. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span C
+              | Evaluar plazos y condiciones de pago. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span D
+              | Analizar el impacto en el flujo de caja. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span E
+              | Seleccionar la opción más viable. 
+        .row.align-items-start.mb-10.bg-color-6.p-1(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Este análisis permite tomar decisiones informadas, prevenir desequilibrios financieros y alinear la financiación con las necesidades reales del proyecto.
+      .col-lg-5.mb-3
+        figure
+          img(src="@/assets/curso/tema1/img20.png", data-aos="zoom-in" style="max-width: 458px")
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Análisis de viabilidad financiera
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") El análisis de viabilidad financiera es un proceso técnico que permite determinar si el proyecto es capaz de sostenerse económicamente en el tiempo, considerando sus ingresos, costos y obligaciones financieras.
+    p(data-aos="fade-left") Este análisis no solo permite validar la posibilidad de ejecutar el proyecto, sino también identificar riesgos, ajustar su estructura y definir estrategias orientadas a garantizar su sostenibilidad. Para desarrollar esta evaluación, es necesario considerar algunos componentes esenciales:        
+    //- Inicio Tarjetas
+    .row(data-aos="fade-right")
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3.align-items-center
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 Ingresos proyectados
+          p.text-center Estimación de los recursos que el proyecto puede generar.
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 Costos y gastos
+          p.text-center Identificación de los egresos necesarios para su ejecución.
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 Flujo de caja
+          p.text-center Relación entre ingresos y egresos a lo largo del tiempo.
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 Punto de equilibrio
+          p.text-center Momento en el que los ingresos cubren los costos totales.          
+    //- Fin Tarjetas
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Estos elementos permiten construir una visión financiera integral y anticipar el comportamiento económico del proyecto antes de comprometer recursos. En la práctica, el análisis de viabilidad financiera resulta útil porque permite:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Determinar si el proyecto puede generar beneficios. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Identificar posibles déficits financieros. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Ajustar costos o estrategias antes de ejecutar. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Evaluar la capacidad de pago frente a financiación externa. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Reducir la incertidumbre financiera. 
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img21.png", data-aos="zoom-in" style="max-width: 458px")          
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img22.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, un proyecto que presenta flujo de caja negativo durante sus primeros meses puede requerir estrategias como períodos de gracia, capital de trabajo adicional o una implementación gradual que reduzca la presión financiera inicial.
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start(data-aos="fade-left")
+          .col-lg
+          p.mb-0 Para desarrollar este análisis de manera técnica, se recomienda seguir un proceso estructurado:
+          ol.lista-ol--cuadro.ms-4
+            li.d-flex.mt-3 
+              .lista-ol--cuadro__vineta
+                span A
+              | Definir los ingresos esperados del proyecto. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span B
+              | Identificar todos los costos y gastos asociados. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span C
+              | Elaborar el flujo de caja proyectado por periodos. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span D
+              | Calcular el punto de equilibrio. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span E
+              | Evaluar la rentabilidad esperada del proyecto. 
+        .row.align-items-start.mb-10.bg-color-6.p-1(data-aos="fade-left")            
+          .col-lg
+            p(data-aos="fade-left") Este procedimiento permite relacionar ingresos, costos y rentabilidad con mayor precisión, facilitando decisiones más seguras. En términos estratégicos, el análisis de viabilidad financiera no solo permite decidir si un proyecto es viable, sino también establecer cómo debe estructurarse para garantizar su sostenibilidad y crecimiento. Por ello, este proceso constituye una base fundamental para la toma de decisiones financieras, la selección de fuentes de financiación y la reducción de riesgos asociados a la inversión.
+      .col-lg-5.mb-3
+        figure
+          img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in" style="max-width: 458px")
+    Separador
+    //- Inicio Tema1.5
+    .row.mt-5
+        #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.5 Presupuesto del proyecto: 
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7(data-aos="fade-right")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 El presupuesto del proyecto constituye una herramienta fundamental dentro de la gestión financiera, ya que permite estimar, organizar y controlar los recursos económicos necesarios para la ejecución de las actividades definidas. Desde un enfoque técnico, no se limita a un listado de costos, sino que integra necesidades operativas, tiempos de ejecución y fuentes de financiación disponibles.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img24.png', style="object-fit: cover;")
+    p.mb-5(data-aos="fade-left") Su adecuada elaboración permite anticipar requerimientos financieros, distribuir recursos con criterios de prioridad y reducir la incertidumbre durante el desarrollo del proyecto. Además, facilita la coordinación entre las áreas técnica, administrativa y financiera. En la práctica, el presupuesto permite responder preguntas esenciales relacionadas con la viabilidad económica del proyecto:
+    .row.justify-content-center.align-items-center.mb-5.mt-3
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 ¿Cuánto cuesta ejecutar el proyecto?
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 ¿Qué recursos se requieren?
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 ¿En qué momento deben utilizarse?
+    .row.justify-content-center.align-items-center
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 ¿Cómo se financiarán las actividades?
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 ¿Qué margen existe para contingencias?
+    .row.justify-content-center.mb-10
+      .col-lg-8
+        .row.align-items-start.mb-10.bg-color-6.p-4(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Este análisis permite tomar decisiones informadas, prevenir desequilibrios financieros y alinear la financiación con las necesidades reales del proyecto.
+    p.mt-5(data-aos="fade-left") Asimismo, el presupuesto cumple una función de control, ya que permite comparar lo planeado con lo ejecutado, identificar desviaciones y aplicar correctivos oportunamente. Entre los principales beneficios derivados de una adecuada presupuestación se encuentran los siguientes:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta08_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Optimización de recursos
+                        p.card-text.text-center
+                        | Permite asignar el capital según prioridades estratégicas.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta08_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Control financiero
+                        p.card-text.text-center
+                        | Facilita seguimiento permanente a costos y gastos.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta08_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Reducción de riesgos
+                        p.card-text.text-center
+                        | Disminuye probabilidades de sobrecostos o falta de liquidez.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta08_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Toma de decisiones
+                        p.card-text.text-center
+                        | Brinda información objetiva para ajustes operativos.
+                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta08_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Sostenibilidad
+                        p.card-text.text-center
+                        | Favorece continuidad y cumplimiento de objetivos.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img25.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") Por el contrario, un presupuesto incompleto o mal estructurado puede ocasionar retrasos, uso ineficiente de recursos o inviabilidad financiera.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Costos del proyecto
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") Los costos del proyecto corresponden al conjunto de recursos económicos necesarios para ejecutar las actividades previstas. Su identificación y clasificación adecuada es fundamental para construir un presupuesto confiable y alineado con la realidad operativa.
+    p(data-aos="fade-left") Desde una perspectiva técnica, conocer los costos reales permite calcular el valor total del proyecto, establecer prioridades de inversión y diseñar mecanismos de control financiero. Para comprender mejor su estructura, los costos suelen clasificarse de la siguiente manera:     
+    //- Inicio Tarjetas
+    .row.justify-content-center.g-0(data-aos="fade-right")
+      .col-lg-6.col-md-6
+        .tarjeta.p-5.h-100.bg-color-2(style="border-radius: 25px 0 0 25px; background-color: #4d6666;")
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/tarjeta09_1.svg', alt='' style="width:100px").m-auto
+          h4 Costos directos
+          p Se relacionan directamente con la ejecución de actividades específicas, como materia prima, mano de obra directa o insumos.
+      .col-lg-6.col-md-6
+        .tarjeta.p-5.h-100.bg-color-10(style="border-radius: 0 25px 25px 0; background-color: #d8f0f0;")
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/tarjeta09_2.svg', style="width:100px").m-auto
+          h4.text-white Costos indirectos
+          p.text-white Son necesarios para operar, aunque no se vinculan a una actividad puntual, como administración, transporte o servicios.
+    //- Fin Tarjetas
+    .row.mb-5.mt-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 En la práctica, identificar correctamente los costos permite fortalecer la gestión financiera mediante los siguientes aportes:
+            ul.lista-ul.mb-0
+              li.d-flex.mt-3
+                i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                p.mb-0 Determinar el valor real del proyecto. 
+              li.d-flex
+                i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                p.mb-0 Priorizar actividades según recursos disponibles. 
+              li.d-flex
+                i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                p.mb-0 Evaluar viabilidad económica. 
+              li.d-flex
+                i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                p.mb-0 Evitar subestimaciones presupuestales. 
+              li.d-flex
+                i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                p.mb-0 Fortalecer el control financiero. 
+        
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img26.png", data-aos="zoom-in" style="max-width: 458px")
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img27.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, si un proyecto productivo incluye solo costos de materiales y omite transporte, servicios públicos o mantenimiento, puede presentar déficits durante la ejecución.
+    p.text-center(data-aos="fade-left") Para realizar una adecuada identificación de costos, se recomienda seguir el siguiente proceso metodológico:
+    //- Inicio Infografia
+    .row.bg-color-1
+      .col-12
+        .p-5
+          .row.justify-content-center
+            .col-lg-10
+              PasosA.color-acento-contenido(tipo="n")
+                .row
+                  .col-lg
+                    h3 Identificación
+                    p Listar actividades del proyecto.
+                  .col-auto
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/linea02_1.png').img125
+                .row
+                  .col-auto
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/linea02_2.png').img125
+                  .col-lg.text-start
+                    h3 Recursos
+                    p Determinar materiales, talento humano y servicios requeridos.
+                .row
+                  .col-lg
+                    h3 Valoración
+                    p Asignar valor económico a cada recurso.
+                  .col-auto
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/linea02_3.png').img125
+                .row
+                  .col-auto
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/linea02_4.png').img125
+                  .col-lg.text-start
+                    h3 Clasificación
+                    p Organizar costos en directos e indirectos.
+                .row
+                  .col-lg
+                    h3 Consolidación
+                    p Integrar la información al presupuesto general.
+                  .col-auto
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/linea02_5.png').img125
+          //- Fin Infografia
+        p.text-center(data-aos="fade-left") Este procedimiento mejora la precisión financiera y facilita una ejecución ordenada.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Inversión inicial
+    //- Título con imagen
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-5.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img28.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La inversión inicial corresponde al conjunto de recursos económicos necesarios para poner en marcha el proyecto. Incluye todos los gastos previos al inicio de operaciones y aquellos requeridos para garantizar el funcionamiento durante las primeras etapas.
 </template>
 
 <script>

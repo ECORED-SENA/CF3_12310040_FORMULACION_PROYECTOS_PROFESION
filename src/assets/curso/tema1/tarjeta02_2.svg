@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_426068" data-name="Rectangle 426068" width="115" height="115" transform="translate(800.781 1954)" fill="#e8bad8" opacity="0.41"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1099708" data-name="Mask Group 1099708" transform="translate(-800.781 -1954)" clip-path="url(#clip-path)">
+    <g id="Group_1229088" data-name="Group 1229088" transform="translate(799.781 1960.273)">
+      <g id="Group_1229087" data-name="Group 1229087" transform="translate(1)">
+        <ellipse id="Ellipse_13076" data-name="Ellipse 13076" cx="28.658" cy="28.658" rx="28.658" ry="28.658" transform="translate(56.527 44.289)" fill="#b8b1fc"/>
+        <ellipse id="Ellipse_13077" data-name="Ellipse 13077" cx="20.842" cy="20.842" rx="20.842" ry="20.842" fill="#b8b1fc"/>
+      </g>
+      <g id="Group_1229098" data-name="Group 1229098" transform="translate(-7.211 -7.275)">
+        <path id="Path_1524993" data-name="Path 1524993" d="M73.489,17.2h0v-.916h-7.8a.917.917,0,1,0,0,1.834h4.744L56.968,32.96,40.447,21.64a.948.948,0,0,0-1.223.153L27.751,33.112l-6.273-4.588a.926.926,0,0,0-1.223,0L9.087,37.7V17.2a.985.985,0,0,0-.916-.916.987.987,0,0,0-.919.916V39.079L1.439,43.821A.97.97,0,0,0,1.286,45.2c.153.305.46.305.765.305a.917.917,0,0,0,.612-.154l4.588-3.67V62.33a.987.987,0,0,0,.919.918.986.986,0,0,0,.916-.918V40l11.78-9.637L27.14,35.1a.807.807,0,0,0,1.222-.154L39.835,23.474,56.357,34.947a.921.921,0,0,0,1.222-.151L71.347,19.5v4.284a.918.918,0,0,0,1.836,0Z" transform="translate(23.71 24.964)" fill="#545454" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_1524994" data-name="Path 1524994" d="M44.321,0H5.16V25.545H44.321L56.71,12.391Z" transform="translate(25.803 16.622)" fill="#f4bc4b" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1524995" data-name="Path 1524995" d="M53.38,25.9V68.729H44.814V25.9Z" transform="translate(46.113 29.887)" fill="#fc9e6a" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_426069" data-name="Rectangle 426069" width="8.565" height="23.864" transform="translate(73.794 74.75)" fill="#fc9e6a" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1524996" data-name="Path 1524996" d="M30.773,36.22V66.967H22.052V29.337h8.721Z" transform="translate(34.455 31.648)" fill="#fc9e6a" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1524997" data-name="Path 1524997" d="M19.289,39.506v25.7H10.724V32.775h8.565Z" transform="translate(28.652 33.409)" fill="#fc9e6a" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1524998" data-name="Path 1524998" d="M47.715,33.889V64.636H39.149V33.889Z" transform="translate(43.211 33.979)" fill="#70d5b7" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1524999" data-name="Path 1524999" d="M36.386,40.772V64.636H27.819V33.888h8.567Z" transform="translate(37.409 33.979)" fill="#70d5b7" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_426070" data-name="Rectangle 426070" width="8.567" height="25.547" transform="translate(47.942 72.915)" fill="#70d5b7" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_426071" data-name="Rectangle 426071" width="8.567" height="15.45" transform="translate(30.81 83.166)" fill="#70d5b7" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1525000" data-name="Path 1525000" d="M83.523,55.45H.918a.918.918,0,0,1,0-1.836H83.368a.989.989,0,0,1,.919.918.713.713,0,0,1-.765.918" transform="translate(23.16 44.083)" fill="#545454" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
