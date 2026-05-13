@@ -1289,7 +1289,333 @@
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/tema1/img37.png', style="max-width: 250px", data-aos="zoom-in").m-auto
-    //- Fin Carrusel    
+    //- Fin Carrusel
+    p(data-aos="fade-left") Un plan de negocio bien estructurado fortalece la formulación del proyecto y mejora sus posibilidades de ejecución exitosa.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Definición
+    //- Título con imagen
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7(data-aos="fade-right")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 El plan de negocio es un documento técnico que describe de forma estructurada los elementos fundamentales de un proyecto, incluyendo su propósito, alcance, estrategia de operación y proyección financiera. Desde una perspectiva aplicada, no debe entenderse únicamente como un requisito formal, sino como una herramienta de análisis que permite validar la viabilidad del proyecto antes de su ejecución.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img38.png', style="object-fit: cover;")
+    p(data-aos="fade-left") Su elaboración exige revisar cada componente del proyecto, identificar posibles riesgos y definir estrategias de desarrollo. En la práctica, un plan de negocio bien elaborado permite obtener beneficios concretos como los siguientes:          
+    //- Inicio Infografia
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido(tipo="n")
+          .row
+            .col-lg
+              h3 Clarificación de objetivos
+              p Define metas y dirección estratégica.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea03_1.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea03_2.png').img125
+            .col-lg.text-start
+              h3 Identificación de oportunidades y riesgos
+              p Facilita prevención y aprovechamiento de escenarios.
+          .row
+            .col-lg
+              h3 Organización de recursos
+              p Determina requerimientos humanos, técnicos y financieros.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea03_3.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea03_4.png').img125
+            .col-lg.text-start
+              h3 Evaluación de sostenibilidad
+              p Permite analizar permanencia en el tiempo.
+          .row
+            .col-lg
+              h3 Mejor toma de decisiones
+              p Brinda información estructurada para actuar con mayor seguridad.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/linea03_5.png').img125
+    //- Fin Infografia
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img39.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, un proyecto que no cuenta con plan de negocio difícilmente puede demostrar su viabilidad ante una entidad financiera o un inversionista.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Definición
+    //- Título con imagen
+    p(data-aos="fade-left") A continuación se presentan los componentes principales del plan de negocio.
+    //- Inicio Podcast
+    .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-2
+      .row.g-0.align-items-stretch
+        .col-lg-7.mb-3
+          .p-4.p-md-5.bg-custom-dark-teal.h-100.rounded-4
+            .row.align-items-center
+              .col-md-5.text-center.mb-4.mb-md-0
+                img(src="@/assets/curso/tema1/podcast.svg" style="max-width: 200px;").img-fluid
+              .col-md-7.ps-md-4
+                h2.mb-3.fw-bold(style="color:#000") Pódcast
+                .tarjeta.bg-white.p-3.shadow-sm.border-lemon
+                  h5.mb-3.fw-bold Componentes del plan de negocio
+                  TarjetaAudio.color-primario(
+                    texto="" 
+                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
+        .col-lg-5
+          figure.mb-0
+            img(src='@/assets/curso/tema1/img40.png')
+    //- Fin Podcast
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Relación con la financiación
+    //- Título con imagen
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-5.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img41.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El plan de negocio tiene una relación directa con la financiación del proyecto, ya que constituye uno de los principales soportes técnicos y financieros para la obtención de recursos. Desde un enfoque aplicado, este documento permite sustentar la necesidad de capital, demostrar capacidad operativa y evidenciar posibilidades reales de generación de ingresos. 
+    p(data-aos="fade-left") Por esta razón, suele ser requerido por entidades financieras, inversionistas y programas de apoyo empresarial. Entre los principales aportes del plan de negocio frente a la financiación se encuentran los siguientes:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta14_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Demostrar viabilidad
+                        p.card-text.text-center
+                        | Evidencia que el proyecto puede ejecutarse con éxito.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta14_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Sustentar necesidad de financiación
+                        p.card-text.text-center
+                        | Justifica el monto requerido y su destinación.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta14_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Probar capacidad de ingresos
+                        p.card-text.text-center
+                        | Presenta proyecciones económicas razonables.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta14_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Reducir percepción de riesgo
+                        p.card-text.text-center
+                        | Genera mayor confianza en financiadores.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta14_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Respaldar decisiones de inversión
+                        p.card-text.text-center
+                        | Facilita procesos de evaluación externa.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img42.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") En la práctica, las entidades financieras y los inversionistas analizan el plan de negocio para decidir sobre la asignación de recursos. Por ello, la calidad técnica del documento influye directamente en las posibilidades de acceso a financiación.
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img43.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo,</b> un plan de negocio que no presenta proyecciones financieras claras o que no justifica adecuadamente sus costos difícilmente será considerado viable.
+    .row.mb-5.mt-5
+      .col-lg-7
+        .row.align-items-start(data-aos="fade-left")
+          .col-lg
+          p.mb-0 Además, el plan de negocio integra elementos esenciales del proyecto en un solo documento, lo que facilita su análisis, gestión y ejecución. Entre los principales componentes integrados se encuentran:
+            ul.lista-ul.mb-0
+                  li.d-flex.mt-3
+                    i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                    p.mb-0 <b>Presupuesto del proyecto</b>, que consolida costos, inversión y uso de recursos. 
+                  li.d-flex
+                    i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                    p.mb-0 <b>Fuentes de financiación</b>, que identifican alternativas de capital disponibles. 
+                  li.d-flex
+                    i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                    p.mb-0 <b>Estructura operativa</b>, que define cómo se ejecutarán las actividades. 
+                  li.d-flex
+                    i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                    p.mb-0 <b>Proyecciones financieras</b>, que permiten estimar sostenibilidad económica.                  
+        .row.align-items-start.mb-10.bg-color-6.p-4(data-aos="fade-left")            
+          .col-lg
+            p(data-aos="fade-left") Esta integración mejora la coherencia entre los diferentes componentes del proyecto y fortalece la toma de decisiones estratégicas. En síntesis, el plan de negocio no solo organiza la información del proyecto, sino que se convierte en una herramienta estratégica para gestionar recursos, reducir riesgos y aumentar las probabilidades de éxito.
+      .col-lg-5.mb-3
+        figure
+          img(src="@/assets/curso/tema1/img44.png", data-aos="zoom-in" style="max-width: 458px")
+    //- Inicio Tema1.7
+    .row.mt-5
+        #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.7 Ejemplo aplicado de financiación de un proyecto
+    p(data-aos="fade-left") Para comprender la aplicación práctica de los conceptos abordados, se presenta un ejemplo orientado a la estructuración financiera de un proyecto productivo dedicado a la producción y comercialización de productos artesanales. El objetivo consiste en generar ingresos mediante ventas directas, participación en ferias locales y canales digitales. Con el fin de organizar el proceso de financiación de manera secuencial, se resume a continuación cada una de las etapas principales:
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span A
+                        | <h4>Definición de necesidades del proyecto</h4>
+                      | Se identifican los recursos indispensables para iniciar actividades, como materia prima inicial, herramientas de producción, adecuación del espacio de trabajo y estrategias de comercialización. Esta etapa permite reconocer los requerimientos reales del proyecto y prevenir omisiones.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span B
+                        | <h4>Elaboración del presupuesto</h4>
+                      | Se estiman los costos asociados a la inversión inicial, costos operativos y gastos administrativos. Como resultado, se obtiene el valor total requerido para iniciar operaciones con una base financiera realista.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span C
+                        | <h4>Proyección de ingresos y gastos</h4>
+                      | Se calculan ingresos esperados por ventas, gastos mensuales y flujo de caja proyectado. Esto permite determinar la capacidad del proyecto para sostenerse en el tiempo y generar beneficios.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_4.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span D
+                        | <h4>Identificación de fuentes de financiación</h4>
+                      | Se analizan alternativas como capital propio, crédito financiero y convocatorias o fondos de apoyo. Cada opción debe revisarse según requisitos, condiciones y nivel de riesgo.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_5.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span E
+                        | <h4>Evaluación de alternativas</h4>
+                      | Se comparan ventajas y limitaciones de cada fuente. El capital propio no genera deuda, el crédito amplía capacidad financiera y las convocatorias ofrecen recursos competitivos sin devolución.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_6.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span F
+                        | <h4>Selección de la estrategia de financiación</h4>
+                      | Se define la opción más conveniente o una combinación de varias fuentes. Por ejemplo, capital propio para iniciar, convocatorias para fortalecimiento y crédito para expansión futura.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_7.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span G
+                        | <h4>Integración con el plan de negocio</h4>
+                      | Se consolidan presupuesto, proyección financiera y estrategia de financiación en un documento estructurado. Esto facilita la presentación del proyecto ante terceros y orienta su ejecución.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide02_8.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mb-3 
+                        .lista-ol--cuadro__vineta
+                          span H
+                        | <h4>Evaluación final de viabilidad</h4>
+                      | Se verifica capacidad para cubrir costos, flujo de caja positivo y sostenibilidad en el tiempo. Esta revisión permite decidir si el proyecto debe ejecutarse o ajustarse previamente.
+    //- Fin Slideshow
+    .row.justify-content-center.mb-10
+      .col-lg-10
+        .row.align-items-start.mb-10.bg-color-6.p-4(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 100px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") La secuencia anterior evidencia que la financiación del proyecto no depende únicamente de conseguir recursos económicos, sino de un proceso técnico que integra análisis, planeación y toma de decisiones estratégicas. Cuando cada paso se desarrolla de forma rigurosa, el proyecto mejora sus probabilidades de éxito, reduce riesgos financieros y fortalece su capacidad de crecimiento sostenible.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Errores comunes en la financiación del proyecto
+    //- Título con imagen
+    p(data-aos="fade-left") Durante la estructuración financiera pueden presentarse fallas frecuentes. Entre las más relevantes se encuentran las siguientes:
+    .row.bg-color-1
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-12.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Subestimar costos reales
+                        p.card-text.text-center
+                        | Genera faltantes de recursos durante la ejecución.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 No analizar tasas y plazos
+                        p.card-text.text-center
+                        | Incrementa carga financiera futura.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Depender de una sola fuente
+                        p.card-text.text-center
+                        | Aumenta vulnerabilidad financiera.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 No elaborar proyecciones claras
+                        p.card-text.text-center
+                        | Dificulta la toma de decisiones.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Ignorar el flujo de caja
+                        p.card-text.text-center
+                        | Puede generar problemas de liquidez.
 
 </template>
 
