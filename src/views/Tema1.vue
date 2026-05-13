@@ -149,27 +149,27 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Disponibilidad de recursos
                         p.card-text.text-center
                         | Garantiza capital para operar, adquirir insumos y ejecutar actividades.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Planeación financiera
                         p.card-text.text-center
                         | Organiza ingresos, costos y gastos conforme a metas definidas.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Reducción del riesgo
                         p.card-text.text-center
                         | Disminuye retrasos e imprevistos derivados de falta de recursos.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Uso eficiente de recursos
                         p.card-text.text-center
                         | Facilita priorización y control del presupuesto.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Viabilidad económica
                         p.card-text.text-center
@@ -419,27 +419,27 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Documentación requerida
                         p.card-text.text-center
                         | Sustenta la viabilidad técnica, financiera y legal del proyecto.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Tasas de interés
                         p.card-text.text-center
                         | Determinan el costo del dinero en el tiempo.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Plazos de pago
                         p.card-text.text-center
                         | Inciden en el valor de las cuotas y en el flujo de caja.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Garantías exigidas
                         p.card-text.text-center
                         | Respaldan el cumplimiento de las obligaciones financieras.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Viabilidad financiera
                         p.card-text.text-center
@@ -850,27 +850,27 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Optimización de recursos
                         p.card-text.text-center
                         | Permite asignar el capital según prioridades estratégicas.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Control financiero
                         p.card-text.text-center
                         | Facilita seguimiento permanente a costos y gastos.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Reducción de riesgos
                         p.card-text.text-center
                         | Disminuye probabilidades de sobrecostos o falta de liquidez.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Toma de decisiones
                         p.card-text.text-center
                         | Brinda información objetiva para ajustes operativos.
-                      .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Sostenibilidad
                         p.card-text.text-center
@@ -1003,6 +1003,294 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La inversión inicial corresponde al conjunto de recursos económicos necesarios para poner en marcha el proyecto. Incluye todos los gastos previos al inicio de operaciones y aquellos requeridos para garantizar el funcionamiento durante las primeras etapas.
+    P(data-aos="fade-left") Desde un enfoque aplicado, la inversión inicial representa el punto de partida financiero del proyecto y define el nivel mínimo de recursos requeridos para comenzar sin interrupciones. Por esta razón, su estimación debe realizarse con criterios técnicos y financieros claros.
+    .row.mb-5
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img29.png", data-aos="zoom-in" style="max-width: 458px")
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Una adecuada valoración es fundamental, ya que una subestimación puede generar insuficiencia de capital en etapas tempranas, mientras que una sobreestimación puede dificultar el acceso a financiación o comprometer recursos innecesariamente. En términos estratégicos, la inversión inicial permite:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Determinar cuánto capital se requiere para iniciar operaciones. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Diseñar una estructura financiera adecuada. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Medir el nivel de riesgo económico inicial. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Planificar la puesta en marcha del proyecto. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Reducir problemas de liquidez en los primeros periodos. 
+    p(data-aos="fade-left") Para estimarla correctamente, es necesario reconocer los componentes que normalmente la integran:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta10_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Equipos y maquinaria
+                        p.card-text.text-center
+                        | Herramientas, tecnología o activos productivos necesarios.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta10_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Infraestructura o adecuaciones
+                        p.card-text.text-center
+                        | Adaptaciones físicas o tecnológicas requeridas.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta10_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Compra inicial de insumos
+                        p.card-text.text-center
+                        | Inventario básico para iniciar actividades.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta10_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Capital de trabajo
+                        p.card-text.text-center
+                        | Recursos destinados a cubrir gastos iniciales de operación.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta10_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Gastos legales y administrativos
+                        p.card-text.text-center
+                        | Registros, licencias o trámites requeridos.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img30.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") Cada uno de estos elementos debe valorarse de forma realista para evitar desviaciones presupuestales durante el inicio del proyecto.    
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img31.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, un emprendimiento comercial que inicia sin capital de trabajo suficiente puede presentar dificultades para pagar nómina, proveedores o servicios en los primeros meses de operación.
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Para calcular este valor con mayor precisión, se recomienda seguir el siguiente proceso:
+              ol.lista-ol--cuadro.ms-4
+                li.d-flex.mt-3 
+                  .lista-ol--cuadro__vineta
+                    span A
+                  | Identificar los recursos necesarios para iniciar el proyecto. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span B
+                  | Estimar el costo individual de cada recurso. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span C
+                  | Determinar el capital de trabajo requerido para la operación inicial. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span D
+                  | Consolidar el valor total de la inversión inicial. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span E
+                  | Relacionar la inversión con las fuentes de financiación disponibles.               
+        .row.align-items-start.mb-10(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Este análisis permite iniciar operaciones con una base financiera más sólida, mejorar la planeación económica y reducir riesgos en la etapa de arranque del proyecto.                  
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img32.png", data-aos="zoom-in" style="max-width: 458px")                  
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Proyección básica de gastos
+    //- Título con imagen
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7(data-aos="fade-right")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La proyección básica de gastos consiste en estimar los egresos del proyecto a lo largo del tiempo, permitiendo anticipar necesidades financieras y evaluar su sostenibilidad operativa. A diferencia del presupuesto inicial, esta herramienta incorpora el comportamiento económico del proyecto en diferentes periodos, lo que facilita una planeación más realista y dinámica.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img33.png', style="object-fit: cover;")
+    p(data-aos="fade-left") Desde una perspectiva técnica, permite prever momentos de alta exigencia financiera, programar recursos oportunamente y reducir riesgos derivados de una inadecuada administración del gasto. Por ello, se convierte en un instrumento clave para la toma de decisiones durante la ejecución del proyecto. Entre los principales beneficios de esta herramienta se encuentran los siguientes:
+    .row.justify-content-center.align-items-center.mb-5.mt-3
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 Anticipar necesidades de financiación futura. 
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 Detectar meses o etapas con mayores egresos. 
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 Ajustar estrategias operativas y financieras. 
+    .row.justify-content-center.align-items-center
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 Evaluar la sostenibilidad económica del proyecto. 
+      .col-lg-4.col-md-6.mb-4
+        .card-custom
+          .card-custom__side-icon
+            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+          .card-custom__content
+            p.mb-0 Mejorar el control entre gastos estimados y gastos reales. 
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img34.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, un proyecto puede requerir mayores egresos durante su fase inicial debido a contratación de personal, adquisición de insumos, mercadeo o adecuaciones locativas, lo que exige contar con liquidez suficiente para operar sin interrupciones.
+    p(data-aos="fade-left") Para construir una proyección confiable, conviene identificar los principales tipos de gasto:        
+    //- Inicio Carrusel
+    .row.bg-color-1
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-12.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Operativos
+                        p.card-text.text-center
+                        | Transporte, mantenimiento, comunicaciones y funcionamiento diario.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Variables
+                        p.card-text.text-center
+                        | Cambian según el nivel de producción o actividad desarrollada.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Fijos
+                        p.card-text.text-center
+                        | Salarios, arriendo y servicios periódicos.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Administrativos
+                        p.card-text.text-center
+                        | Papelería, software, honorarios contables y gestión interna.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Contingencias
+                        p.card-text.text-center
+                        | Recursos destinados a imprevistos o emergencias operativas.
+          .row.mb-5
+            .col-lg-7
+              .row.align-items-start.mb-3(data-aos="fade-left")
+                .col-lg          
+                  p.p-4.bg-color-6 La identificación adecuada de estos egresos permite proyectar con mayor precisión el comportamiento financiero del proyecto y prevenir faltantes de recursos. Una vez definidos los gastos, se recomienda seguir el siguiente proceso:
+                    ol.lista-ol--cuadro.ms-4
+                      li.d-flex.mt-3 
+                        .lista-ol--cuadro__vineta
+                          span A
+                        | Identificar los gastos previstos del proyecto. 
+                      li.d-flex 
+                        .lista-ol--cuadro__vineta
+                          span B
+                        | Clasificarlos en fijos, variables y extraordinarios. 
+                      li.d-flex 
+                        .lista-ol--cuadro__vineta
+                          span C
+                        | Estimar aumentos, variaciones o estacionalidades en el tiempo. 
+                      li.d-flex 
+                        .lista-ol--cuadro__vineta
+                          span D
+                        | Elaborar una proyección mensual, trimestral o anual. 
+                      li.d-flex 
+                        .lista-ol--cuadro__vineta
+                          span E
+                        | Analizar el impacto sobre el flujo de caja. 
+                      li.d-flex 
+                        .lista-ol--cuadro__vineta
+                          span F
+                        | Ajustar la proyección según resultados reales obtenidos.            
+            .col-lg-5.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema1/img35.png", data-aos="zoom-in" style="max-width: 458px")
+            p(data-aos="fade-left") La proyección de gastos permite tomar decisiones estratégicas, como ajustar el alcance del proyecto, redefinir estructuras de costos o replantear fuentes de financiación. Por ello, constituye una herramienta esencial para garantizar la viabilidad económica, la continuidad operativa y la estabilidad financiera del proyecto.                
+            Separador
+            //- Inicio Tema1.6
+            .row.mt-5
+                #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+                  h2 1.6 Plan de negocio
+            .row.mb-10              
+              .col-lg-7
+                .row.align-items-start.mb-10(data-aos="fade-left")  
+                  .col-lg-auto
+                    img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    p(data-aos="fade-left") El plan de negocio constituye una herramienta estratégica que permite estructurar de manera integral un proyecto, articulando sus componentes técnicos, operativos, comerciales y financieros en un solo documento. Desde un enfoque profesional, no se limita a describir una idea, sino que permite evaluar su viabilidad, proyectar su comportamiento en el tiempo y sustentar la toma de decisiones.
+                .row.align-items-start.mb-3(data-aos="fade-left")
+                  .col-lg
+                  p.mb-0.bg-color-6.p-4 En la práctica, el plan de negocio funciona como una guía para la ejecución del proyecto y como un instrumento de presentación ante terceros, especialmente cuando se requiere acceder a fuentes de financiación. A través de este documento se evidencia la coherencia entre el problema identificado, la solución propuesta y los recursos necesarios para su implementación.
+              .col-lg-5.mb-3.mb-lg-0
+                figure
+                  img(src="@/assets/curso/tema1/img36.png", data-aos="zoom-in" style="max-width: 458px")
+              p(data-aos="fade-left") Además, permite organizar la información del proyecto de manera estructurada, facilitando el análisis de aspectos clave como el mercado, los costos, la operación y la rentabilidad. Entre los principales aportes del plan de negocio se destacan los siguientes:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta13_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Organización integral
+                        p.card-text.text-center
+                        | Reúne en un solo documento los componentes esenciales del proyecto.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta13_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Toma de decisiones
+                        p.card-text.text-center
+                        | Facilita evaluar alternativas antes de ejecutar.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta13_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Gestión financiera
+                        p.card-text.text-center
+                        | Permite identificar necesidades de inversión y financiación.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta13_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Presentación externa
+                        p.card-text.text-center
+                        | Fortalece procesos ante inversionistas o entidades financieras.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/tarjeta13_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Seguimiento
+                        p.card-text.text-center
+                        | Sirve como guía para controlar avances y resultados.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/img37.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel    
+
 </template>
 
 <script>
