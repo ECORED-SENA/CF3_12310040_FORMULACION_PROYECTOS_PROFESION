@@ -232,7 +232,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Entidades financieras")
-            .row
+            .row.align-items-center
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema1/pestana01_1.png')
@@ -240,7 +240,7 @@
                 h4 Entidades financieras
                 p Recursos obtenidos mediante créditos u otros productos financieros, sujetos a intereses y condiciones contractuales.
           .py-3.py-md-4(titulo="Inversión privada")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_2.png')
@@ -248,7 +248,7 @@
                 h4 Inversión privada
                 p Capital aportado por terceros a cambio de participación en utilidades, propiedad o decisiones estratégicas.
           .py-3.py-md-4(titulo="Capital propio")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_3.png')
@@ -256,7 +256,7 @@
                 h4 Capital propio
                 p Recursos aportados directamente por los propietarios o promotores del proyecto.
           .py-3.py-md-4(titulo="Convocatorias y fondos de apoyo")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_4.png')
@@ -394,10 +394,10 @@
             p.text-center.mb-0 Capacidad operativa y financiera para ejecutar el proyecto. 
     //- Fin Tarjetas
     .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
-          .col-lg-auto
-            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p(data-aos="fade-left") En la práctica, estos mecanismos de financiación resultan especialmente útiles en proyectos de innovación, emprendimiento o impacto social. No obstante, su carácter competitivo implica que no todos los proyectos logran acceder a estos recursos, por lo que deben asumirse como una alternativa complementaria y no como única fuente de financiación. En síntesis, una estrategia financiera sólida suele combinar diversas fuentes de financiación, equilibrando costo, riesgo y sostenibilidad según la etapa de desarrollo del proyecto.
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") En la práctica, estos mecanismos de financiación resultan especialmente útiles en proyectos de innovación, emprendimiento o impacto social. No obstante, su carácter competitivo implica que no todos los proyectos logran acceder a estos recursos, por lo que deben asumirse como una alternativa complementaria y no como única fuente de financiación. En síntesis, una estrategia financiera sólida suele combinar diversas fuentes de financiación, equilibrando costo, riesgo y sostenibilidad según la etapa de desarrollo del proyecto.
     Separador
     //- Inicio Tema1.4
     .row.mt-5
