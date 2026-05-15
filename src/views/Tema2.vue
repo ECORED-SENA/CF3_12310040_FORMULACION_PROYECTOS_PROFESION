@@ -317,43 +317,43 @@
     p(data-aos="fade-left") Además, funciona como instrumento de seguimiento, ya que permite comparar el avance real con lo planificado, identificar desviaciones y aplicar decisiones correctivas oportunamente. Para comprender su utilidad integral, se exponen a continuación sus aspectos principales:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3.mt-5
-            .p-4.p-md-5
-              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema2/slide02_1.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Secuencia de actividades
-                    p Organiza el orden lógico de ejecución.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema2/slide02_2.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Duración de tareas
-                    p Define tiempos estimados para cada actividad.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema2/slide02_3.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Fechas clave
-                    p Establece inicio, cierre y puntos de control.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema2/slide02_4.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Dependencias
-                    p Relaciona actividades que dependen unas de otras.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema2/slide02_5.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Seguimiento
-                    p Permite comparar avance real frente a lo planeado.
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide02_1.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Secuencia de actividades
+              p Organiza el orden lógico de ejecución.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide02_2.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Duración de tareas
+              p Define tiempos estimados para cada actividad.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide02_3.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Fechas clave
+              p Establece inicio, cierre y puntos de control.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide02_4.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Dependencias
+              p Relaciona actividades que dependen unas de otras.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide02_5.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Seguimiento
+              p Permite comparar avance real frente a lo planeado.
     //- Fin Slideshow
     p(data-aos="fade-left") Un cronograma bien estructurado fortalece la organización del proyecto y mejora la capacidad de respuesta ante cambios o retrasos.
     //- Título con imagen
@@ -545,6 +545,467 @@
                   p.card-text.text-center
                   | Protege tareas esenciales del proyecto.
     p(data-aos="fade-left") La aplicación de estos criterios mejora la confiabilidad del cronograma y facilita su uso como herramienta de control.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Herramientas para su elaboración
+    //- Título con imagen
+    .row.mb-3.mt-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4 La elaboración del cronograma puede apoyarse en diversas herramientas que facilitan su construcción, organización y seguimiento. La elección dependerá de la complejidad del proyecto y de los recursos disponibles. Entre las herramientas más utilizadas se encuentran:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Hojas de cálculo</b> como Excel o Google Sheets, útiles para proyectos de baja o media complejidad. Permiten registrar actividades, fechas y responsables. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Diagramas de Gantt</b>, adecuados para representar duración, secuencia y avance de actividades. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Herramientas digitales de gestión</b> como Trello, Asana o Notion, que facilitan asignación de tareas, coordinación del equipo y actualización en tiempo real.          
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img15.png", data-aos="zoom-in" style="max-width: 458px")          
+    .row.mb-5
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img16.png", data-aos="zoom-in" style="max-width: 458px")         
+      .col-lg-7.bg-color-6
+        .row.align-items-start(data-aos="fade-left")
+          .col-lg
+            p.p-4 Para seleccionar la herramienta más adecuada, se recomienda considerar:
+            ol.lista-ol--cuadro.ms-4
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span A
+                span La complejidad del proyecto. 
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span B
+                span El número de actividades programadas. 
+              li.d-flex 
+                .lista-ol--cuadro__vineta
+                  span C
+                span La cantidad de personas involucradas. 
+              li.d-flex 
+                .lista-ol--cuadro__vineta
+                  span D
+                span La necesidad de seguimiento continuo. 
+              li.d-flex.mb-5
+                .lista-ol--cuadro__vineta
+                  span E
+                span El nivel de detalle requerido.
+              p En la práctica, estas herramientas permiten organizar información, facilitar seguimiento, mejorar coordinación y actualizar el cronograma con mayor rapidez.           
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, en proyectos con varias actividades simultáneas, un diagrama de Gantt permite identificar retrasos o conflictos de programación oportunamente.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Importancia del cronograma en la ejecución del proyecto
+    //- Título con imagen
+    .row.mb-3.mt-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 El cronograma no solo permite organizar el tiempo, sino que se convierte en una herramienta de control que facilita la toma de decisiones durante la ejecución. Entre sus principales aportes estratégicos se encuentran los siguientes:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Favorece el cumplimiento de tiempos establecidos. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Optimiza recursos humanos, técnicos y financieros. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Reduce riesgos, al detectar retrasos o conflictos potenciales. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Mejora la eficiencia, al coordinar actividades relacionadas. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Facilita la toma de decisiones mediante información actualizada.           
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img18.png", data-aos="zoom-in" style="max-width: 458px")          
+    p(data-aos="fade-left") Además, un cronograma bien gestionado permite redistribuir tareas, ajustar tiempos y mantener el control general del proyecto. En síntesis, el cronograma constituye una herramienta esencial para transformar la planificación del proyecto en una ejecución organizada, controlada y orientada al logro de resultados.
+    //- Inicio Tema2.5
+    .row.mt-5
+      #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.5 Plan de puesta en marcha
+    .row.justify-content-center.align-items-stretch.mb-5.g-0
+      .col-lg-7.bg-color-7.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 En la práctica, funciona como una guía operativa que orienta el desarrollo del proyecto en condiciones reales, facilitando la coordinación de actividades, la asignación de responsabilidades, el uso eficiente de los recursos y el seguimiento permanente del avance. Su correcta elaboración permite reducir la incertidumbre, anticipar riesgos y asegurar coherencia entre lo planificado y lo ejecutado.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img19.png', alt='', style="object-fit: cover;")          
+    .row.mb-10
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img20.png", data-aos="zoom-in" style="max-width: 458px")
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 En la práctica, funciona como una guía operativa que orienta el desarrollo del proyecto en condiciones reales, facilitando la coordinación de actividades, la asignación de responsabilidades, el uso eficiente de los recursos y el seguimiento permanente del avance. Su correcta elaboración permite reducir la incertidumbre, anticipar riesgos y asegurar coherencia entre lo planificado y lo ejecutado.
+        .row.align-items-start.mb-10(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Además, este plan articula componentes fundamentales como el cronograma, las estrategias de implementación, los recursos disponibles, la estructura organizativa y la financiación, consolidando el proyecto en una estructura operativa funcional.
+    p.mt-5.mb-5(data-aos="fade-left") Entre los principales beneficios del plan de puesta en marcha se encuentran los siguientes:
+    .row.bg-color-12
+      .col-12
+        .p-5
+          .row.justify-content-center.align-items-center.mb-5.mt-3
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Organiza la ejecución de manera lógica y secuencial. 
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Facilita la coordinación entre personas, actividades y recursos. 
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Permite controlar tiempos, avances y resultados.     
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Reduce errores e improvisaciones durante la ejecución. 
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Mejora la capacidad de respuesta ante cambios o imprevistos. 
+            .col-lg-4.col-md-6.mb-4
+              .card-custom
+                .card-custom__side-icon
+                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                .card-custom__content
+                  p.mb-0 Incrementa la probabilidad de cumplimiento de objetivos. 
+    p(data-aos="fade-left") Un plan bien estructurado fortalece la eficiencia operativa y mejora la sostenibilidad del proyecto desde sus primeras etapas.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Estructura del plan
+    //- Título con imagen
+    p(data-aos="fade-left") La estructura del plan de puesta en marcha debe organizar la información del proyecto de manera clara, lógica y secuencial, permitiendo su comprensión, aplicación y seguimiento. Desde una perspectiva técnica, este documento debe contener los componentes esenciales que orientan la ejecución, facilitan la toma de decisiones y permiten controlar el desarrollo del proyecto. Para comprender mejor su composición, se presentan los principales elementos:
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/img21.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Descripción del proyecto")
+              p.mb-4 Presenta el propósito del proyecto, el problema identificado, la solución propuesta y su alcance general.              
+          .row(titulo="Objetivos del proyecto")
+              p.mb-4 Define los resultados que se esperan alcanzar en términos operativos, financieros o comerciales.
+          .row(titulo="Cronograma de actividades")
+              p.mb-4 Establece la secuencia de tareas, tiempos estimados, fechas clave y responsables.
+          .row(titulo="Recursos del proyecto")
+              p.mb-4 Identifica los recursos humanos, técnicos, tecnológicos y financieros requeridos.
+          .row(titulo="Estrategias de implementación")
+              p.mb-4 Determina la forma en que se desarrollarán las actividades y se alcanzarán los objetivos.
+          .row(titulo="Presupuesto y financiación")
+              p.mb-4 Presenta costos estimados, inversión requerida y fuentes de recursos disponibles.
+    //- Fin Accordion
+    p.text-center(data-aos="fade-left") Cada uno de estos componentes cumple una función específica; sin embargo, su verdadero valor radica en la coherencia que exista entre ellos.     
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, no tendría sentido plantear objetivos ambiciosos si el cronograma es insuficiente o si no se cuenta con recursos financieros acordes con las necesidades del proyecto.
+    .row.mb-3.mt-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 Una estructura clara permite:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Organizar la información del proyecto de forma técnica y comprensible. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Facilitar la ejecución ordenada de las actividades. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Mejorar el control y seguimiento del avance. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Detectar vacíos o inconsistencias antes de iniciar operaciones. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Reducir errores durante la implementación. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Servir como guía para ajustes futuros. 
+            p En síntesis, la estructura del plan de puesta en marcha no solo ordena información, sino que establece la base operativa necesaria para ejecutar el proyecto con mayor precisión y eficiencia.
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img22.png", data-aos="zoom-in" style="max-width: 458px")
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Integración de elementos del proyecto:
+    //- Título con imagen
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-5.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img23.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La integración de elementos consiste en articular los diferentes componentes del proyecto (financieros, operativos y organizacionales) en un solo esquema coherente. Su propósito es asegurar que cada parte funcione de manera coordinada y orientada al cumplimiento de los objetivos establecidos.
+    p(data-aos="fade-left") Desde un enfoque aplicado, esta integración permite evitar inconsistencias entre lo planificado y lo ejecutado, reduciendo errores operativos, retrasos y uso ineficiente de los recursos disponibles. Para comprender de forma ordenada este proceso, se presenta la siguiente síntesis:
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3.mt-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide03_1.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Relación entre elementos
+              p El cronograma define cuándo se ejecutan las actividades. Los recursos permiten desarrollar las tareas programadas. Las estrategias orientan la forma de ejecución. El presupuesto respalda financieramente la operación del proyecto.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide03_2.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Aplicación en el proyecto
+              p Permite asegurar coherencia entre actividades y recursos, optimizar la ejecución, evitar duplicidad o insuficiencia de recursos, mejorar la toma de decisiones y fortalecer la capacidad de respuesta ante cambios.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/slide03_3.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Proceso recomendado
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Paso 1.</b> Revisar todos los componentes del proyecto.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Paso 2.</b> Verificar coherencia entre actividades, recursos y presupuesto.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Paso 3.</b> Ajustar inconsistencias detectadas.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Paso 4.</b> Consolidar la información en un solo documento de trabajo.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 <b>Paso 5.</b> Validar la viabilidad operativa y financiera del plan.
+    //- Fin Slideshow
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img24.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, no es posible ejecutar una actividad si no se cuenta con los recursos definidos o si dicha tarea no está contemplada dentro del cronograma.proyecto.
+    p(data-aos="fade-left") La adecuada integración fortalece la consistencia interna del proyecto, mejora su capacidad de ejecución y aumenta la probabilidad de alcanzar los resultados esperados.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Ejecución del proyecto
+    //- Título con imagen
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 La ejecución del proyecto corresponde a la aplicación del plan de puesta en marcha, en la cual se desarrollan las actividades definidas, se utilizan los recursos disponibles y se implementan las estrategias establecidas. 
+        .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Desde una perspectiva técnica, la ejecución es un proceso dinámico que requiere seguimiento permanente, control y capacidad de adaptación, ya que durante su desarrollo pueden presentarse variaciones frente a lo inicialmente planificado. 
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img25.png", data-aos="zoom-in" style="max-width: 458px")                  
+    p(data-aos="fade-left") Por esta razón, no se limita al cumplimiento de tareas, sino que implica coordinar personas, administrar recursos y tomar decisiones oportunas. Para comprender de manera integral esta fase, se presenta la siguiente síntesis:
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/img26.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Elementos clave en la ejecución")
+              p.mb-4 Comprende el inicio de actividades según el cronograma, el uso adecuado de recursos, la coordinación del equipo de trabajo, el seguimiento del avance y la toma de decisiones frente a desviaciones o imprevistos.
+          .row(titulo="Aplicación en el proyecto")
+              p.mb-4 En la práctica, la ejecución permite materializar el proyecto, validar la planificación realizada, identificar ajustes necesarios y avanzar hacia el cumplimiento de los objetivos definidos.
+          .row(titulo="Proceso recomendado")
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 1.</b> Iniciar las actividades según el cronograma establecido.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 2.</b> Asignar y utilizar los recursos definidos.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 3.</b> Realizar seguimiento continuo al avance.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 4.</b> Identificar desviaciones frente a lo planeado.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 5.</b> Aplicar ajustes correctivos oportunamente.
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  span <b>Paso 6.</b> Evaluar resultados parciales obtenidos.
+    //- Fin Accordion
+    p(data-aos="fade-left") El seguimiento permite controlar el avance del proyecto, detectar problemas a tiempo, tomar decisiones oportunas y garantizar el cumplimiento de objetivos. Además, facilita la mejora continua durante la ejecución.
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img27.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, durante la ejecución puede ser necesario ajustar tiempos, redistribuir recursos o modificar estrategias según las condiciones reales del entorno.
+    p(data-aos="fade-left") En síntesis, una ejecución bien gestionada convierte la planificación en resultados concretos y aumenta significativamente la probabilidad de éxito del proyecto.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Ejemplo aplicado de puesta en marcha
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") Se plantea un proyecto de producción y comercialización de productos artesanales (accesorios elaborados a mano), cuyo objetivo es generar ingresos mediante ventas presenciales y a través de canales digitales.
+    p(data-aos="fade-left") El proyecto ya cuenta con definición del problema, objetivos establecidos, presupuesto estructurado, fuentes de financiación identificadas y plan de negocio elaborado. Para comprender el proceso de manera integral, se presenta la siguiente secuencia aplicada:
+    //- Accordeon Pasos          
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Validación del plan de puesta en marcha") Antes de iniciar la ejecución, se realiza una revisión general del plan, verificando cronograma, recursos disponibles, estrategias definidas y presupuesto. Este paso permite asegurar que el proyecto está listo para ejecutarse y que no existen inconsistencias entre sus componentes.
+          p(numero="2" titulo="Organización de recursos") Se asignan los recursos necesarios para iniciar el proyecto. Incluye recursos humanos para producción, ventas y administración; recursos técnicos como herramientas, insumos y espacio de trabajo; y recursos financieros para la operación inicial. Una adecuada organización evita retrasos y facilita el inicio de actividades.
+          p(numero="3" titulo="Activación del cronograma") Se inicia la ejecución de actividades según el cronograma establecido, incluyendo compra de insumos, adecuación del espacio de trabajo, inicio de producción y preparación de canales de venta. El cronograma permite desarrollar las actividades en el orden correcto.          
+          p(numero="4" titulo="Implementación de estrategias") Se ponen en marcha estrategias operativas, comerciales y organizacionales. Esto incluye estandarización de procesos productivos, promoción en redes sociales, ventas digitales, asignación de roles y coordinación del equipo. Estas acciones mejoran la eficiencia del proyecto.          
+      .col-8.col-lg-4
+        figure
+          img.l(src="@/assets/curso/tema2/img28.png")
+    //- Fin Accordeon Pasos
+    //- Accordeon Pasos
+    .row.justify-content-center.mb-5
+      .col-8.col-lg-4
+        figure
+          img.l(src="@/assets/curso/tema2/img29.png")
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p(numero="5" titulo="Inicio de operaciones") El proyecto comienza su funcionamiento mediante producción de los primeros productos, publicación en canales digitales e inicio de ventas. Este momento representa la entrada real del proyecto al mercado.
+          p(numero="6" titulo="Seguimiento y control") Se verifica el cumplimiento del cronograma, se controlan gastos y se evalúan resultados iniciales como ventas y producción. El seguimiento permite detectar desviaciones y tomar decisiones oportunas.
+          p(numero="7" titulo="Ajustes en la ejecución") Con base en la información obtenida, se realizan ajustes como modificación de estrategias comerciales, cambios en producción según la demanda y reorganización de recursos. La capacidad de adaptación es clave para la sostenibilidad.
+          p(numero="8" titulo="Evaluación de resultados") Se analizan indicadores como cumplimiento de objetivos, rentabilidad, nivel de ventas y uso de recursos. Esta evaluación permite determinar el desempeño del proyecto y definir acciones futuras.      
+    //- Accordeon Pasos
+    .row.mb-3.mt-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+            p.p-4.bg-color-6 Este ejemplo evidencia que la puesta en marcha del proyecto es un proceso estructurado que integra planificación, ejecución, seguimiento y ajuste. No se trata únicamente de iniciar actividades, sino de gestionar de manera coordinada todos los elementos del proyecto para garantizar su éxito.
+            p Un proyecto que aplica este proceso de manera adecuada logra:
+              ul.lista-ul.mb-0
+                li.d-flex.mt-3
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Mejorar su eficiencia operativa. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Reducir riesgos durante la ejecución. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Optimizar el uso de recursos disponibles. 
+                li.d-flex
+                  i.fas.fa-check-circle.me-3(style="color:#3a6673")
+                  p.mb-0 Incrementar sus posibilidades de éxito y sostenibilidad.                
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/img30.png", data-aos="zoom-in" style="max-width: 458px")          
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Errores comunes en la puesta en marcha del proyecto
+    //- Título con imagen
+    p(data-aos="fade-left") Durante esta fase pueden presentarse fallas que afectan el desarrollo normal del proyecto. Entre las más frecuentes se encuentran las siguientes:
+    //- Inicio Carrusel
+    .row.bg-color-12
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-6 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Iniciar actividades sin validar recursos disponibles
+                        p.card-text.text-center
+                        | Genera retrasos o interrupciones operativas.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 No seguir el cronograma establecido
+                        p.card-text.text-center
+                        | Produce desorden y atrasos en la ejecución.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Falta de asignación clara de responsabilidades
+                        p.card-text.text-center
+                        | Dificulta la coordinación del equipo.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 No realizar seguimiento al avance
+                        p.card-text.text-center
+                        | Impide detectar problemas oportunamente.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 No ajustar el plan frente a cambios del entorno
+                        p.card-text.text-center
+                        | Reduce capacidad de respuesta y sostenibilidad.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema2/img31.png', style="max-width: 250px", data-aos="zoom-in").m-auto          
+    .row.justify-content-center.mb-5.align-items-center 
+      .col-lg-9
+        p.text-center.p-4.bg-color-7 Prevenir estos errores fortalece la ejecución del proyecto y mejora la probabilidad de alcanzar los resultados esperados.                        
 </template>
 
 <script>
