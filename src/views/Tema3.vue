@@ -149,7 +149,7 @@
     //- Inicio Tema3.3
     .row.mt-5
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.3 Relación entre financiación y ejecución
+          h2 3.3 Preparación para la implementación
     .row.align-items-start.mb-10(data-aos="fade-left")  
       .col-lg-auto
         img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto

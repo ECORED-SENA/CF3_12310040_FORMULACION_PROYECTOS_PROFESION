@@ -21,7 +21,7 @@
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p(data-aos="fade-left") La financiación no solo implica la obtención de recursos económicos, sino también el análisis de las diferentes alternativas disponibles, la evaluación de sus condiciones y la toma de decisiones orientadas a seleccionar la opción más viable. Este proceso permite establecer una relación directa entre los costos del proyecto y las fuentes de recursos que lo respaldan.
+            p(data-aos="fade-left") Desde un enfoque técnico, la puesta en marcha no es un proceso improvisado, sino una fase estructurada que requiere organización, coordinación y control. Implica la activación de todos los componentes del proyecto, incluyendo el cronograma, la asignación de responsabilidades, la gestión de recursos y la implementación de estrategias previamente definidas.
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
             p.mb-0.p-3.bg-color-6 En la práctica, esta etapa representa el momento en el que el proyecto se materializa, por lo que cualquier debilidad en la planificación puede evidenciarse durante su ejecución. Por esta razón, es fundamental que exista coherencia entre lo formulado y lo ejecutado.
@@ -73,7 +73,7 @@
           //- Inicio Tema2.1
           .row.mt-5
               #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                h2 2.1 Importancia de la financiación en los proyectos
+                h2 2.1 Concepto de puesta en marcha
           .row.align-items-start.mb-10(data-aos="fade-left")  
             .col-lg-auto
               img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
@@ -369,8 +369,7 @@
         img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
       .col-lg
         p(data-aos="fade-left") El cronograma del proyecto es la representación temporal de las actividades necesarias para su ejecución, en la cual se establecen fechas de inicio, duración y finalización, así como la secuencia lógica entre ellas.
-    p(data-aos="fade-left") Desde una perspectiva aplicada, el cronograma facilita coordinar actividades, distribuir recursos y mantener claridad sobre el desarrollo del proyecto. No se limita a un listado de tareas, sino que integra la lógica operativa requerida para alcanzar los objetivos propuestos. Entre los principales beneficios de un cronograma estructurado se encuentran los siguientes:
-     p(data-aos="fade-left") Durante la estructuración financiera pueden presentarse fallas frecuentes. Entre las más relevantes se encuentran las siguientes:
+    p(data-aos="fade-left") Desde una perspectiva aplicada, el cronograma facilita coordinar actividades, distribuir recursos y mantener claridad sobre el desarrollo del proyecto. No se limita a un listado de tareas, sino que integra la lógica operativa requerida para alcanzar los objetivos propuestos. Entre los principales beneficios de un cronograma estructurado se encuentran los siguientes:     
     .row.bg-color-12
       .col-12
         .p-5
@@ -831,7 +830,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img24.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <b>Por ejemplo</b>, no es posible ejecutar una actividad si no se cuenta con los recursos definidos o si dicha tarea no está contemplada dentro del cronograma.proyecto.
+        p.mb-0 <b>Por ejemplo</b>, no es posible ejecutar una actividad si no se cuenta con los recursos definidos o si dicha tarea no está contemplada dentro del cronograma.
     p(data-aos="fade-left") La adecuada integración fortalece la consistencia interna del proyecto, mejora su capacidad de ejecución y aumenta la probabilidad de alcanzar los resultados esperados.
     //- Título con imagen
     .bg-full-width.mt-5
@@ -845,8 +844,8 @@
       .col-lg-7
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
-          p.mb-0 La ejecución del proyecto corresponde a la aplicación del plan de puesta en marcha, en la cual se desarrollan las actividades definidas, se utilizan los recursos disponibles y se implementan las estrategias establecidas. 
-        .row.align-items-start.mb-10.bg-color-6.p-3.justify-content-center.mb-5.align-items-center(data-aos="fade-left")  
+          p.mb-0.bg-color-6.p-4 La ejecución del proyecto corresponde a la aplicación del plan de puesta en marcha, en la cual se desarrollan las actividades definidas, se utilizan los recursos disponibles y se implementan las estrategias establecidas. 
+        .row.align-items-start.mb-10.justify-content-center.mb-5.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
           .col-lg

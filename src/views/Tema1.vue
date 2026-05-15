@@ -467,17 +467,17 @@
     .row.mt-5.justify-content-center.mb-5
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte financiero</b>
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Soporte financiero</b>
           .card-body.bg-white
             | Evidencia la estructura de costos, inversión y proyección de ingresos.
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte técnico</b>
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Soporte técnico</b>
           .card-body.bg-white
             | Describe el proyecto, su alcance y su viabilidad operativa.
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Soporte estratégico</b>
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Soporte estratégico</b>
           .card-body.bg-white
             | Demuestra la coherencia entre el problema identificado y la solución propuesta.
     //- Fin Tarjetas
@@ -594,23 +594,23 @@
     .row.mt-5.justify-content-center.mb-5(data-aos="fade-right")
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Tasa de interés</b>
-          .card-body.bg-white.rounded-4
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Tasa de interés</b>
+          .card-body.bg-white
             | Representa el costo del dinero en el tiempo. Puede ser fija o variable.
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Plazo de financiación</b>
-          .card-body.bg-white.rounded-4
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Plazo de financiación</b>
+          .card-body.bg-white
             | Tiempo establecido para el pago total de la obligación.
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Período de gracia</b>
-          .card-body.bg-white.rounded-4
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Período de gracia</b>
+          .card-body.bg-white
             | Tiempo durante el cual no se realizan pagos de capital o se pagan parcialmente.
       .col-sm-6.col-lg-3.mb-4.d-flex.flex-column
         .card.h-100.border-0.shadow-sm
-          p.text-center.p-2.bg-color-2.mb-0.rounded-4 <b>Garantías</b>
-          .card-body.bg-white.rounded-4
+          p.text-center.p-2.bg-color-2.mb-0.rounded-2 <b>Garantías</b>
+          .card-body.bg-white
             | Respaldos exigidos por la entidad financiera para aprobar el crédito.
     //- Fin Tarjetas
     .row.mb-5
@@ -669,7 +669,7 @@
               .lista-ol--cuadro__vineta
                 span E
               | Seleccionar la opción más viable. 
-        .row.align-items-start.mb-10.bg-color-6.p-1.justify-content-center.align-items-center(data-aos="fade-left")  
+        .row.bg-color-6.p-3.justify-content-center.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
           .col-lg
@@ -819,7 +819,7 @@
             img(src="@/assets/curso/tema1/tarjeta07_1.svg")
           .card-custom__content
             p.mb-0 ¿En qué momento deben utilizarse?
-    .row.justify-content-center.align-items-center
+    
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
@@ -838,7 +838,7 @@
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
           .col-lg
-            p(data-aos="fade-left") Este análisis permite tomar decisiones informadas, prevenir desequilibrios financieros y alinear la financiación con las necesidades reales del proyecto.
+            p(data-aos="fade-left") Estas preguntas permiten garantizar coherencia entre la formulación técnica del proyecto y su respaldo económico.
     p.mt-5(data-aos="fade-left") Asimismo, el presupuesto cumple una función de control, ya que permite comparar lo planeado con lo ejecutado, identificar desviaciones y aplicar correctivos oportunamente. Entre los principales beneficios derivados de una adecuada presupuestación se encuentran los siguientes:
     //- Inicio Carrusel
     .row.bg-color-9
@@ -954,7 +954,7 @@
               PasosA.color-acento-contenido(tipo="n")
                 .row
                   .col-lg
-                    h3 Identificación
+                    h3 A. Identificación
                     p Listar actividades del proyecto.
                   .col-auto
                     figure(data-aos="zoom-in")
@@ -964,11 +964,11 @@
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_2.png').img125
                   .col-lg.text-start
-                    h3 Recursos
+                    h3 B. Recursos
                     p Determinar materiales, talento humano y servicios requeridos.
                 .row
                   .col-lg
-                    h3 Valoración
+                    h3 C. Valoración
                     p Asignar valor económico a cada recurso.
                   .col-auto
                     figure(data-aos="zoom-in")
@@ -978,11 +978,11 @@
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_4.png').img125
                   .col-lg.text-start
-                    h3 Clasificación
+                    h3 D. Clasificación
                     p Organizar costos en directos e indirectos.
                 .row
                   .col-lg
-                    h3 Consolidación
+                    h3 E. Consolidación
                     p Integrar la información al presupuesto general.
                   .col-auto
                     figure(data-aos="zoom-in")
@@ -1143,7 +1143,6 @@
             img(src="@/assets/curso/tema1/tarjeta07_1.svg")
           .card-custom__content
             p.mb-0 Ajustar estrategias operativas y financieras. 
-    .row.justify-content-center.align-items-center
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
@@ -1164,7 +1163,7 @@
         p.mb-0 <b>Por ejemplo</b>, un proyecto puede requerir mayores egresos durante su fase inicial debido a contratación de personal, adquisición de insumos, mercadeo o adecuaciones locativas, lo que exige contar con liquidez suficiente para operar sin interrupciones.
     p(data-aos="fade-left") Para construir una proyección confiable, conviene identificar los principales tipos de gasto:        
     //- Inicio Carrusel
-    .row.bg-color-1
+    .row.bg-color-12
       .col-12
         .p-5
           .bg-full-width.mt-5
@@ -1192,65 +1191,65 @@
                         img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Administrativos
                         p.card-text.text-center
-                        | Papelería, software, honorarios contables y gestión interna.
+                        | Papelería, <i>software,</i> honorarios contables y gestión interna.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Contingencias
                         p.card-text.text-center
                         | Recursos destinados a imprevistos o emergencias operativas.
-          .row.mb-5
-            .col-lg-7
-              .row.align-items-start.mb-3(data-aos="fade-left")
-                .col-lg          
-                  p.p-4.bg-color-6 La identificación adecuada de estos egresos permite proyectar con mayor precisión el comportamiento financiero del proyecto y prevenir faltantes de recursos. Una vez definidos los gastos, se recomienda seguir el siguiente proceso:
-                    ol.lista-ol--cuadro.ms-4
-                      li.d-flex.mt-3 
-                        .lista-ol--cuadro__vineta
-                          span A
-                        | Identificar los gastos previstos del proyecto. 
-                      li.d-flex 
-                        .lista-ol--cuadro__vineta
-                          span B
-                        | Clasificarlos en fijos, variables y extraordinarios. 
-                      li.d-flex 
-                        .lista-ol--cuadro__vineta
-                          span C
-                        | Estimar aumentos, variaciones o estacionalidades en el tiempo. 
-                      li.d-flex 
-                        .lista-ol--cuadro__vineta
-                          span D
-                        | Elaborar una proyección mensual, trimestral o anual. 
-                      li.d-flex 
-                        .lista-ol--cuadro__vineta
-                          span E
-                        | Analizar el impacto sobre el flujo de caja. 
-                      li.d-flex 
-                        .lista-ol--cuadro__vineta
-                          span F
-                        | Ajustar la proyección según resultados reales obtenidos.            
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img35.png", data-aos="zoom-in" style="max-width: 458px")
-            p(data-aos="fade-left") La proyección de gastos permite tomar decisiones estratégicas, como ajustar el alcance del proyecto, redefinir estructuras de costos o replantear fuentes de financiación. Por ello, constituye una herramienta esencial para garantizar la viabilidad económica, la continuidad operativa y la estabilidad financiera del proyecto.                
-            Separador
-            //- Inicio Tema1.6
-            .row.mt-5
-                #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                  h2 1.6 Plan de negocio
-            .row.mb-10
-              .col-lg-7
-                .row.align-items-start.mb-10(data-aos="fade-left")  
-                  .col-lg-auto
-                    img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
-                  .col-lg
-                    p(data-aos="fade-left") El plan de negocio constituye una herramienta estratégica que permite estructurar de manera integral un proyecto, articulando sus componentes técnicos, operativos, comerciales y financieros en un solo documento. Desde un enfoque profesional, no se limita a describir una idea, sino que permite evaluar su viabilidad, proyectar su comportamiento en el tiempo y sustentar la toma de decisiones.
-                .row.align-items-start.mb-3(data-aos="fade-left")
-                  .col-lg
-                  p.mb-0.bg-color-6.p-4 En la práctica, el plan de negocio funciona como una guía para la ejecución del proyecto y como un instrumento de presentación ante terceros, especialmente cuando se requiere acceder a fuentes de financiación. A través de este documento se evidencia la coherencia entre el problema identificado, la solución propuesta y los recursos necesarios para su implementación.
-              .col-lg-5.mb-3.mb-lg-0
-                figure
-                  img(src="@/assets/curso/tema1/img36.png", data-aos="zoom-in" style="max-width: 458px")
-              p(data-aos="fade-left") Además, permite organizar la información del proyecto de manera estructurada, facilitando el análisis de aspectos clave como el mercado, los costos, la operación y la rentabilidad. Entre los principales aportes del plan de negocio se destacan los siguientes:
+    .row.mb-5
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg          
+            p.p-4.bg-color-6 La identificación adecuada de estos egresos permite proyectar con mayor precisión el comportamiento financiero del proyecto y prevenir faltantes de recursos. Una vez definidos los gastos, se recomienda seguir el siguiente proceso:
+              ol.lista-ol--cuadro.ms-4
+                li.d-flex.mt-3 
+                  .lista-ol--cuadro__vineta
+                    span A
+                  | Identificar los gastos previstos del proyecto. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span B
+                  | Clasificarlos en fijos, variables y extraordinarios. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span C
+                  | Estimar aumentos, variaciones o estacionalidades en el tiempo. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span D
+                  | Elaborar una proyección mensual, trimestral o anual. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span E
+                  | Analizar el impacto sobre el flujo de caja. 
+                li.d-flex 
+                  .lista-ol--cuadro__vineta
+                    span F
+                  | Ajustar la proyección según resultados reales obtenidos.            
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img35.png", data-aos="zoom-in" style="max-width: 458px")
+      p(data-aos="fade-left") La proyección de gastos permite tomar decisiones estratégicas, como ajustar el alcance del proyecto, redefinir estructuras de costos o replantear fuentes de financiación. Por ello, constituye una herramienta esencial para garantizar la viabilidad económica, la continuidad operativa y la estabilidad financiera del proyecto.                
+      Separador
+      //- Inicio Tema1.6
+      .row.mt-5
+          #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+            h2 1.6 Plan de negocio
+      .row.mb-10
+        .col-lg-7
+          .row.align-items-start.mb-10(data-aos="fade-left")  
+            .col-lg-auto
+              img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p(data-aos="fade-left") El plan de negocio constituye una herramienta estratégica que permite estructurar de manera integral un proyecto, articulando sus componentes técnicos, operativos, comerciales y financieros en un solo documento. Desde un enfoque profesional, no se limita a describir una idea, sino que permite evaluar su viabilidad, proyectar su comportamiento en el tiempo y sustentar la toma de decisiones.
+          .row.align-items-start.mb-3(data-aos="fade-left")
+            .col-lg
+            p.mb-0.bg-color-6.p-4 En la práctica, el plan de negocio funciona como una guía para la ejecución del proyecto y como un instrumento de presentación ante terceros, especialmente cuando se requiere acceder a fuentes de financiación. A través de este documento se evidencia la coherencia entre el problema identificado, la solución propuesta y los recursos necesarios para su implementación.
+        .col-lg-5.mb-3.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema1/img36.png", data-aos="zoom-in" style="max-width: 458px")
+        p(data-aos="fade-left") Además, permite organizar la información del proyecto de manera estructurada, facilitando el análisis de aspectos clave como el mercado, los costos, la operación y la rentabilidad. Entre los principales aportes del plan de negocio se destacan los siguientes:
     //- Inicio Carrusel
     .row.bg-color-9
       .col-12
@@ -1358,7 +1357,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Definición
+          h3.titulo-con-imagen__texto Componentes del plan de negocio
     //- Título con imagen
     p(data-aos="fade-left") A continuación se presentan los componentes principales del plan de negocio.
     //- Inicio Podcast

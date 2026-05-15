@@ -194,14 +194,48 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cronograma',
+      significado:
+        'Plan con fechas que funciona como hoja de ruta para indicar qué hacer, cuándo hacerlo y en qué orden, permitiendo organizar actividades de manera visual y ordenada.',
+    },
+    {
+      termino: 'Financiación',
+      significado:
+        'Proceso mediante el cual se asignan recursos económicos, como dinero o crédito, para hacer viable y mantener en marcha un proyecto, negocio o emprendimiento.',
+    },
+    {
+      termino: 'Flujo de caja',
+      significado:
+        'Movimiento de dinero que entra y sale de una empresa durante un periodo determinado, incluyendo ingresos operativos y gastos de operación, inversión y financiación.',
+    },
+    {
+      termino: 'Presupuesto',
+      significado:
+        'Documento que detalla los gastos y ganancias previstos para una entidad, empresa u organismo en un periodo determinado.',
+    },
+    {
+      termino: 'Viabilidad',
+      significado:
+        'Grado de posibilidad de ejecutar un proyecto o asunto, considerando factores físicos, lógicos, económicos u otros que influyen en su realización.',
+    },
+    {
+      termino: 'Viabilidad',
+      significado:
+        'Grado de posibilidad de ejecutar un proyecto o asunto, considerando factores físicos, lógicos, económicos u otros que influyen en su realización.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Candamil, A. (2025, enero 16). ¿Qué es el flujo de caja? Importancia y utilidad en la gestión financiera. Libre Gestión.',
+      link:
+        'https://web.libregestion.com/que-es-el-flujo-de-caja-importancia-y-utilidad-en-la-gestion-financiera/',
+    },
+    {
+      referencia:
+        'Ruiz, S. R. (2025, agosto 28). Qué es un cronograma y cómo hacerlo paso a paso. AIC. ',
+      link:
+        'https://aicomplutense.com/blog/que-es-un-cronograma-y-como-hacerlo-paso-a-paso/',
     },
   ],
   creditos: [

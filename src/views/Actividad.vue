@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Cuestionario de evaluación sobre financiación y puesta en marcha de proyectos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión del aprendiz sobre los conceptos, procesos y estrategias relacionadas con la financiación y la puesta en marcha de proyectos, mediante la resolución de un cuestionario estructurado.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +29,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de la financiación del proyecto?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecutar actividades del proyecto.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Obtener recursos económicos para su desarrollo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Diseñar estrategias comerciales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evaluar el desempeño del equipo.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +59,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Una fuente de financiación interna corresponde a:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Crédito bancario.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Inversión extranjera.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Capital propio.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Subsidios del estado.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Qué elemento permite determinar si un proyecto es viable financieramente?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Cronograma.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Flujo de caja.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Organigrama.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Estrategia comercial',
               esCorrecta: false,
             },
           ],
@@ -119,29 +120,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'El presupuesto del proyecto permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Establecer costos del proyecto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Definir roles del equipo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Promocionar el proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Diseñar el producto.',
               esCorrecta: false,
             },
           ],
@@ -150,29 +150,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué se debe considerar al seleccionar una fuente de financiación?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Imagen del proyecto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Cantidad de empleados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ubicación del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Tasas y condiciones.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -180,29 +181,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El plan de negocio tiene como función principal:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Ejecutar actividades.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Organizar el equipo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Sustentar el proyecto. ',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Diseñar el cronograma.',
               esCorrecta: false,
             },
           ],
@@ -212,29 +212,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál de los siguientes es un componente del plan de negocio?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Clima laboral.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Uniformes del equipo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Horarios personales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Proyección financiera.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -242,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La relación entre plan de negocio y financiación permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Justificar recursos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reducir personal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Diseñar productos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Crear redes sociales.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +272,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La puesta en marcha del proyecto corresponde a:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Evaluación final.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Inicio de ejecución.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Diseño de plan.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cierre del proyecto.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +302,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué elemento organiza las actividades en el tiempo?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Cronograma',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Presupuesto',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Organigrama',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseño de plan',
               esCorrecta: false,
             },
           ],
@@ -315,19 +332,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Las estrategias operativas se enfocan en:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Contratación externa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Promoción de producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseño de logo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ejecución de actividades.',
               esCorrecta: true,
             },
           ],
@@ -336,19 +362,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Las estrategias comerciales permiten:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Definir procesos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organizar recursos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Generar ventas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Crear cronogramas.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +392,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué tipo de recurso corresponde al dinero del proyecto?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Financiero.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Humano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Técnico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Operativo.',
               esCorrecta: false,
             },
           ],
@@ -378,19 +422,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es un ejemplo de recurso técnico?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Equipo de trabajo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Capital humano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Presupuesto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Herramientas de trabajo.',
               esCorrecta: true,
             },
           ],
@@ -399,20 +452,181 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El plan de puesta en marcha permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Diseñar el producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organizar la ejecución.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crear publicidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir costos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué permite el seguimiento del proyecto?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Diseñar el presupuesto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Detectar desviaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Crear estrategias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'La integración del proyecto implica:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar procesos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Unir componentes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir recursos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar objetivos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué ocurre si no hay coherencia entre financiación y ejecución?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejora el proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Genera fallas en la ejecución.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumenta la productividad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No afecta el resultado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: 'La sostenibilidad del proyecto depende de:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Gestión de recurso.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseño gráfico.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cantidad de empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ubicación física.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es la finalidad de la preparación para la implementación?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Terminar el proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Iniciar sin planificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir el presupuesto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Verificar condiciones.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
