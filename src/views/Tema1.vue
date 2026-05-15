@@ -17,7 +17,7 @@
         figure
           img(src="@/assets/curso/tema1/img2.png", data-aos="zoom-in" style="max-width: 458px")
       .col-lg-7        
-        .row.align-items-start.mb-10(data-aos="fade-left")  
+        .row.align-items-start.mb-10.justify-content-center.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
           .col-lg
@@ -393,7 +393,7 @@
           .p-4            
             p.text-center.mb-0 Capacidad operativa y financiera para ejecutar el proyecto. 
     //- Fin Tarjetas
-    .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+    .row.align-items-start.mb-10.bg-color-6.p-3.justify-content-center.align-items-center(data-aos="fade-left")  
       .col-lg-auto
         img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
       .col-lg
@@ -669,7 +669,7 @@
               .lista-ol--cuadro__vineta
                 span E
               | Seleccionar la opción más viable. 
-        .row.align-items-start.mb-10.bg-color-6.p-1(data-aos="fade-left")  
+        .row.align-items-start.mb-10.bg-color-6.p-1.justify-content-center.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 50px").mx-auto
           .col-lg
@@ -1237,7 +1237,7 @@
             .row.mt-5
                 #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
                   h2 1.6 Plan de negocio
-            .row.mb-10              
+            .row.mb-10
               .col-lg-7
                 .row.align-items-start.mb-10(data-aos="fade-left")  
                   .col-lg-auto
@@ -1568,7 +1568,7 @@
     //- Fin Slideshow
     .row.justify-content-center.mb-10
       .col-lg-10
-        .row.align-items-start.mb-10.bg-color-6.p-4(data-aos="fade-left")  
+        .row.align-items-start.mb-10.bg-color-6.p-4.justify-content-center.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 100px").mx-auto
           .col-lg
@@ -1582,7 +1582,7 @@
           h3.titulo-con-imagen__texto Errores comunes en la financiación del proyecto
     //- Título con imagen
     p(data-aos="fade-left") Durante la estructuración financiera pueden presentarse fallas frecuentes. Entre las más relevantes se encuentran las siguientes:
-    .row.bg-color-1
+    .row.bg-color-12
       .col-12
         .p-5
           .bg-full-width.mt-5

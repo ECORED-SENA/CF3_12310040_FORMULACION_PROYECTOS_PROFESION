@@ -248,7 +248,7 @@
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
           p.mb-0 Las estrategias de implementación corresponden al conjunto de acciones planificadas que orientan la ejecución del proyecto, permitiendo organizar los recursos, definir procedimientos y garantizar el cumplimiento de los objetivos en condiciones reales.
-        .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+        .row.align-items-start.mb-10.bg-color-6.p-3.justify-content-center.mb-5.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
           .col-lg
@@ -371,7 +371,7 @@
         p(data-aos="fade-left") El cronograma del proyecto es la representación temporal de las actividades necesarias para su ejecución, en la cual se establecen fechas de inicio, duración y finalización, así como la secuencia lógica entre ellas.
     p(data-aos="fade-left") Desde una perspectiva aplicada, el cronograma facilita coordinar actividades, distribuir recursos y mantener claridad sobre el desarrollo del proyecto. No se limita a un listado de tareas, sino que integra la lógica operativa requerida para alcanzar los objetivos propuestos. Entre los principales beneficios de un cronograma estructurado se encuentran los siguientes:
      p(data-aos="fade-left") Durante la estructuración financiera pueden presentarse fallas frecuentes. Entre las más relevantes se encuentran las siguientes:
-    .row.bg-color-1
+    .row.bg-color-12
       .col-12
         .p-5
           .bg-full-width.mt-5
@@ -406,66 +406,66 @@
                         p.card-text.text-center
                         | Permite detectar riesgos con anticipación.
           p Por ejemplo, en un proyecto productivo no es posible iniciar la comercialización si previamente no se ha completado la producción, lo que evidencia la importancia de definir correctamente la secuencia de actividades.
-          //- Título con imagen
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Estructuración del cronograma
+    //- Título con imagen
+    .row.align-items-start.mb-10(data-aos="fade-left")  
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+      .col-lg
+        p(data-aos="fade-left") La estructuración del cronograma implica un proceso técnico orientado a organizar las actividades del proyecto en función del tiempo, considerando su secuencia, duración y relación entre ellas.
+    p(data-aos="fade-left") Un cronograma bien construido permite convertir la planificación general en una programación operativa clara, facilitando la coordinación de tareas, el uso eficiente de recursos y el cumplimiento de los plazos establecidos. Para construir un cronograma funcional, es necesario incorporar algunos elementos esenciales:
+    //- Inicio Carrusel
+    .row.bg-color-9
+      .col-12
+        .p-5
           .bg-full-width.mt-5
-            .px-4.px-md-5.pb-md-3
-            .titulo-con-imagen.mb-5(data-aos="fade-right")
-              .titulo-con-imagen__fondo
-                img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-                h3.titulo-con-imagen__texto Estructuración del cronograma
-          //- Título con imagen
-          .row.align-items-start.mb-10(data-aos="fade-left")  
-            .col-lg-auto
-              img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p(data-aos="fade-left") La estructuración del cronograma implica un proceso técnico orientado a organizar las actividades del proyecto en función del tiempo, considerando su secuencia, duración y relación entre ellas.
-          p(data-aos="fade-left") Un cronograma bien construido permite convertir la planificación general en una programación operativa clara, facilitando la coordinación de tareas, el uso eficiente de recursos y el cumplimiento de los plazos establecidos. Para construir un cronograma funcional, es necesario incorporar algunos elementos esenciales:
-          //- Inicio Carrusel
-          .row.bg-color-9
-            .col-12
-              .p-5
-                .bg-full-width.mt-5
-                  .px-4.px-md-5.pb-md-3             
-                    .carousel-bg
-                      .row.justify-content-center.mb-5.align-items-center
-                        .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                          SlyderF(columnas="col-xl-4 col-lg-6")
-                            .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                              img(src='@/assets/curso/tema2/tarjeta04_1.svg', style="max-width: 90px").mx-auto.mb-3
-                              h4.card-title.text-center.mb-3 Actividades del proyecto
-                              p.card-text.text-center
-                              | Define las tareas necesarias para ejecutar el proyecto.
-                            .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                              img(src='@/assets/curso/tema2/tarjeta04_2.svg', style="max-width: 90px").mx-auto.mb-3
-                              h4.card-title.text-center.mb-3 Duración
-                              p.card-text.text-center
-                              | Establece el tiempo estimado para cada actividad.
-                            .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                              img(src='@/assets/curso/tema2/tarjeta04_3.svg', style="max-width: 90px").mx-auto.mb-3
-                              h4.card-title.text-center.mb-3 Fecha de inicio y cierre
-                              p.card-text.text-center
-                              | Determina el horizonte temporal del proyecto.
-                            .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                              img(src='@/assets/curso/tema2/tarjeta04_4.svg', style="max-width: 90px").mx-auto.mb-3
-                              h4.card-title.text-center.mb-3 Dependencias
-                              p.card-text.text-center
-                              | Relaciona actividades conectadas entre sí.
-                            .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                              img(src='@/assets/curso/tema2/tarjeta04_5.svg', style="max-width: 90px").mx-auto.mb-3
-                              h4.card-title.text-center.mb-3 Responsables
-                              p.card-text.text-center
-                              | Asigna encargados de ejecución o seguimiento.
-                        .col-lg-3.order-lg-1.d-none.d-lg-block
-                            figure
-                              img(src='@/assets/curso/tema2/img12.png', style="max-width: 250px", data-aos="zoom-in").m-auto
-          //- Fin Carrusel
-          p(data-aos="fade-left") En la práctica, esta estructuración permite ordenar la ejecución, establecer tiempos adecuados, identificar actividades críticas, coordinar recursos y prevenir retrasos.          
-          .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/tema2/img13.png')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 <b>Por ejemplo</b>, en un proyecto productivo, la compra de insumos debe realizarse antes del inicio de la producción, lo que evidencia una dependencia operativa entre actividades.
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta04_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Actividades del proyecto
+                        p.card-text.text-center
+                        | Define las tareas necesarias para ejecutar el proyecto.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta04_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Duración
+                        p.card-text.text-center
+                        | Establece el tiempo estimado para cada actividad.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta04_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Fecha de inicio y cierre
+                        p.card-text.text-center
+                        | Determina el horizonte temporal del proyecto.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta04_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Dependencias
+                        p.card-text.text-center
+                        | Relaciona actividades conectadas entre sí.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta04_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Responsables
+                        p.card-text.text-center
+                        | Asigna encargados de ejecución o seguimiento.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema2/img12.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
+    p(data-aos="fade-left") En la práctica, esta estructuración permite ordenar la ejecución, establecer tiempos adecuados, identificar actividades críticas, coordinar recursos y prevenir retrasos.          
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img13.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 <b>Por ejemplo</b>, en un proyecto productivo, la compra de insumos debe realizarse antes del inicio de la producción, lo que evidencia una dependencia operativa entre actividades.
     .row.mb-5
       .col-lg-7
         .row.align-items-start(data-aos="fade-left")
@@ -846,7 +846,7 @@
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
           p.mb-0 La ejecución del proyecto corresponde a la aplicación del plan de puesta en marcha, en la cual se desarrollan las actividades definidas, se utilizan los recursos disponibles y se implementan las estrategias establecidas. 
-        .row.align-items-start.mb-10.bg-color-6.p-3(data-aos="fade-left")  
+        .row.align-items-start.mb-10.bg-color-6.p-3.justify-content-center.mb-5.align-items-center(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/icono.svg", style="max-width: 90px").mx-auto
           .col-lg
