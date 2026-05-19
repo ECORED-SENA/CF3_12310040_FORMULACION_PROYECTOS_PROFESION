@@ -1374,7 +1374,7 @@
                   h5.mb-3.fw-bold Componentes del plan de negocio
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
