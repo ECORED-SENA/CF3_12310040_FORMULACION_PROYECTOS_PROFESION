@@ -385,22 +385,22 @@
                         p.card-text.text-center
                         | Ordena las actividades según prioridad y dependencia.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta07_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Tiempos realistas
                         p.card-text.text-center
                         | Favorece una programación alcanzable.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta07_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Coordinación de recursos
                         p.card-text.text-center
                         | Relaciona personal, equipos y tiempos disponibles.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta07_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Seguimiento continuo
                         p.card-text.text-center
                         | Facilita control periódico del avance.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta07_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Prevención de retrasos
                         p.card-text.text-center
                         | Permite detectar riesgos con anticipación.
@@ -524,22 +524,22 @@
                   p.card-text.text-center
                   | Reduce incumplimientos por exceso de optimismo.
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema2/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema2/tarjeta05_2.svg', style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center.mb-3 Considerar imprevistos
                   p.card-text.text-center
                   | Permite incorporar márgenes de contingencia.
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema2/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema2/tarjeta05_3.svg', style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center.mb-3 Coherencia entre actividades y recursos
                   p.card-text.text-center
                   | Ajusta programación a capacidad real.
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema2/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema2/tarjeta05_4.svg', style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center.mb-3 Actualizar periódicamente
                   p.card-text.text-center
                   | Mantiene vigencia del cronograma.
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema2/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema2/tarjeta05_4.svg', style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center.mb-3 Priorizar actividades críticas
                   p.card-text.text-center
                   | Protege tareas esenciales del proyecto.
@@ -670,37 +670,37 @@
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Organiza la ejecución de manera lógica y secuencial. 
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Facilita la coordinación entre personas, actividades y recursos. 
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Permite controlar tiempos, avances y resultados.     
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Reduce errores e improvisaciones durante la ejecución. 
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Mejora la capacidad de respuesta ante cambios o imprevistos. 
             .col-lg-4.col-md-6.mb-4
               .card-custom
                 .card-custom__side-icon
-                  img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+                  img(src="@/assets/curso/tema2/iconotarjeta.svg")
                 .card-custom__content
                   p.mb-0 Incrementa la probabilidad de cumplimiento de objetivos. 
     p(data-aos="fade-left") Un plan bien estructurado fortalece la eficiencia operativa y mejora la sostenibilidad del proyecto desde sus primeras etapas.
@@ -975,27 +975,27 @@
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/TarjCarru01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Iniciar actividades sin validar recursos disponibles
                         p.card-text.text-center
                         | Genera retrasos o interrupciones operativas.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/TarjCarru01_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No seguir el cronograma establecido
                         p.card-text.text-center
                         | Produce desorden y atrasos en la ejecución.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/TarjCarru01_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Falta de asignación clara de responsabilidades
                         p.card-text.text-center
                         | Dificulta la coordinación del equipo.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/TarjCarru01_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No realizar seguimiento al avance
                         p.card-text.text-center
                         | Impide detectar problemas oportunamente.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/TarjCarru01_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No ajustar el plan frente a cambios del entorno
                         p.card-text.text-center
                         | Reduce capacidad de respuesta y sostenibilidad.

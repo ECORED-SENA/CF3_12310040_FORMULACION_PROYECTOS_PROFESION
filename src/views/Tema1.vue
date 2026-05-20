@@ -706,7 +706,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjeta06_2.svg', alt='' style="width:100px").m-auto
           h4.card-title.text-center.mb-4 Costos y gastos
           p.text-center Identificación de los egresos necesarios para su ejecución.
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
@@ -714,7 +714,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjeta06_3.svg', alt='' style="width:100px").m-auto
           h4.card-title.text-center.mb-4 Flujo de caja
           p.text-center Relación entre ingresos y egresos a lo largo del tiempo.
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
@@ -722,7 +722,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta06_1.svg', alt='' style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjeta06_4.svg', alt='' style="width:100px").m-auto
           h4.card-title.text-center.mb-4 Punto de equilibrio
           p.text-center Momento en el que los ingresos cubren los costos totales.          
     //- Fin Tarjetas
@@ -804,32 +804,32 @@
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 ¿Cuánto cuesta ejecutar el proyecto?
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 ¿Qué recursos se requieren?
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 ¿En qué momento deben utilizarse?
     
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 ¿Cómo se financiarán las actividades?
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 ¿Qué margen existe para contingencias?
     .row.justify-content-center.mb-10
@@ -1128,31 +1128,31 @@
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 Anticipar necesidades de financiación futura. 
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 Detectar meses o etapas con mayores egresos. 
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 Ajustar estrategias operativas y financieras. 
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 Evaluar la sostenibilidad económica del proyecto. 
       .col-lg-4.col-md-6.mb-4
         .card-custom
           .card-custom__side-icon
-            img(src="@/assets/curso/tema1/tarjeta07_1.svg")
+            img(src="@/assets/curso/tema1/iconotarjeta.svg")
           .card-custom__content
             p.mb-0 Mejorar el control entre gastos estimados y gastos reales. 
     .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
@@ -1178,22 +1178,22 @@
                         p.card-text.text-center
                         | Transporte, mantenimiento, comunicaciones y funcionamiento diario.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta12_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Variables
                         p.card-text.text-center
                         | Cambian según el nivel de producción o actividad desarrollada.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta12_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Fijos
                         p.card-text.text-center
                         | Salarios, arriendo y servicios periódicos.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta12_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Administrativos
                         p.card-text.text-center
                         | Papelería, <i>software,</i> honorarios contables y gestión interna.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta12_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta12_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Contingencias
                         p.card-text.text-center
                         | Recursos destinados a imprevistos o emergencias operativas.
@@ -1591,27 +1591,27 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Subestimar costos reales
                         p.card-text.text-center
                         | Genera faltantes de recursos durante la ejecución.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No analizar tasas y plazos
                         p.card-text.text-center
                         | Incrementa carga financiera futura.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Depender de una sola fuente
                         p.card-text.text-center
                         | Aumenta vulnerabilidad financiera.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No elaborar proyecciones claras
                         p.card-text.text-center
                         | Dificulta la toma de decisiones.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Ignorar el flujo de caja
                         p.card-text.text-center
                         | Puede generar problemas de liquidez.

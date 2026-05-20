@@ -60,7 +60,7 @@ export default {
         {
           id: 2,
           texto: 'Una fuente de financiación interna corresponde a:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -91,7 +91,7 @@ export default {
           id: 3,
           texto:
             '¿Qué elemento permite determinar si un proyecto es viable financieramente?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -121,7 +121,7 @@ export default {
         {
           id: 4,
           texto: 'El presupuesto del proyecto permite:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -182,7 +182,7 @@ export default {
         {
           id: 6,
           texto: 'El plan de negocio tiene como función principal:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál de los siguientes es un componente del plan de negocio?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -243,7 +243,7 @@ export default {
         {
           id: 8,
           texto: 'La relación entre plan de negocio y financiación permite:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -303,7 +303,7 @@ export default {
         {
           id: 10,
           texto: '¿Qué elemento organiza las actividades en el tiempo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -333,7 +333,7 @@ export default {
         {
           id: 11,
           texto: 'Las estrategias operativas se enfocan en:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -363,7 +363,7 @@ export default {
         {
           id: 12,
           texto: 'Las estrategias comerciales permiten:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -423,7 +423,7 @@ export default {
         {
           id: 14,
           texto: '¿Cuál es un ejemplo de recurso técnico?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -453,7 +453,7 @@ export default {
         {
           id: 15,
           texto: 'El plan de puesta en marcha permite:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -483,7 +483,7 @@ export default {
         {
           id: 16,
           texto: '¿Qué permite el seguimiento del proyecto?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -544,7 +544,7 @@ export default {
           id: 18,
           texto:
             '¿Qué ocurre si no hay coherencia entre financiación y ejecución?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -574,7 +574,7 @@ export default {
         {
           id: 19,
           texto: 'La sostenibilidad del proyecto depende de:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -605,7 +605,7 @@ export default {
           id: 20,
           texto:
             '¿Cuál es la finalidad de la preparación para la implementación?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
