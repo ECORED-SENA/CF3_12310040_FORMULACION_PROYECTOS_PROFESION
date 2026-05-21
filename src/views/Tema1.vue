@@ -43,28 +43,28 @@
           .row.justify-content-center.mb-3.align-items-center
             .col-7
               figure
-                img(src='@/assets/curso/tema1/icon-tarjeta.svg', alt='' style="width:100px").m-auto          
+                img(src='@/assets/curso/tema1/tarjetat1_1.svg', alt='' style="width:100px").m-auto          
           p.text-center ¿Cuánto cuesta ejecutar el proyecto? 
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/icon-tarjeta.svg', alt='' style="width:100px").m-auto          
+                img(src='@/assets/curso/tema1/tarjetat1_2.svg', alt='' style="width:100px").m-auto          
           p.text-center ¿Qué recursos se requieren? 
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/icon-tarjeta.svg', alt='' style="width:100px").m-auto          
+                img(src='@/assets/curso/tema1/tarjetat1_3.svg', alt='' style="width:100px").m-auto          
           p.text-center ¿De dónde provendrán esos recursos? 
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/icon-tarjeta.svg', alt='' style="width:100px").m-auto          
+                img(src='@/assets/curso/tema1/tarjetat1_4.svg', alt='' style="width:100px").m-auto          
           p.text-center ¿En qué condiciones pueden obtenerse? 
     //- Fin Tarjetas
     p(data-aos="fade-left") Estas preguntas son esenciales para establecer un marco financiero que soporte la ejecución del proyecto. Para comprender mejor las principales alternativas de financiación, se exponen a continuación sus características principales:
@@ -203,28 +203,28 @@
           .row.justify-content-center.mb-3.align-items-center
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjetat2_1.svg', style="width:100px").m-auto
           p.text-center Costo del capital.          
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjetat2_2.svg', style="width:100px").m-auto
           p.text-center Nivel de riesgo.          
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjetat2_3.svg', style="width:100px").m-auto
           p.text-center Condiciones de acceso.          
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.p-4.rounded-5.h-100.bg-white.border
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/tarjeta03_1.svg', style="width:100px").m-auto
+                img(src='@/assets/curso/tema1/tarjetat2_4.svg', style="width:100px").m-auto
           p.text-center Impacto en la estructura financiera del proyecto.           
     //- Fin Tarjetas
     p(data-aos="fade-left") Para comprender mejor las opciones disponibles, se presenta la siguiente clasificación:
@@ -1591,27 +1591,27 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjetat8_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Subestimar costos reales
                         p.card-text.text-center
                         | Genera faltantes de recursos durante la ejecución.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjetat8_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No analizar tasas y plazos
                         p.card-text.text-center
                         | Incrementa carga financiera futura.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjetat8_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Depender de una sola fuente
                         p.card-text.text-center
                         | Aumenta vulnerabilidad financiera.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjetat8_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 No elaborar proyecciones claras
                         p.card-text.text-center
                         | Dificulta la toma de decisiones.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/iconotarjeta.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjetat8_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Ignorar el flujo de caja
                         p.card-text.text-center
                         | Puede generar problemas de liquidez.
