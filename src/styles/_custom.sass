@@ -102,32 +102,46 @@ figcaption
 /* Fin Código para los subtítulos que tienen imagenes */
 
 /* Código para los carruseles */
-.carousel-bg .fas
-  &.fa-chevron-left, &.fa-chevron-right
-    display: inline-flex
-    align-items: center
-    justify-content: center
-    width: 40px
-    height: 40px
-    background-color: #FF9800
-    border-radius: 50%
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-    color: #000
-    font-size: 16px
-  @media screen and (max-width: $bp-max-md)
-    background-color: transparent !important
-    box-shadow: none !important
-    font-size: 20px !important
+.carousel-bg
+  .fas
+    &.fa-chevron-left, &.fa-chevron-right
+      display: inline-flex !important
+      align-items: center !important
+      justify-content: center !important
+      width: 45px !important
+      height: 45px !important
+      min-width: 45px !important
+      min-height: 45px !important
+      padding: 0 !important
+      margin: 0 !important
+      border-radius: 50% !important
+      background-color: #FF9800 !important
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+      font-size: 16px      
+      color: #ffffff !important
+      &::before
+        color: #ffffff !important      
+      @media screen and (max-width: $bp-max-md)
+        background-color: transparent !important
+        box-shadow: none !important
+        font-size: 20px !important
+        color: #FF9800 !important 
+        &::before
+          color: #FF9800 !important
 
 .bordes
   border: 1px solid #CBD5E0 !important
-/*Fin Código para los carruseles */
+/* Fin Código para los carruseles */
+
 
 /*Slideshows*/
 .bg-fondo
   &-slider
     background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
-    background-position: bottom
+    background-position: bottom       
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FF9800 !important
 .slyder-a__bullets__item--active 
@@ -372,4 +386,7 @@ figcaption
 /*Slideshow linea tiempo*/
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: #000 !important
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #000 !important

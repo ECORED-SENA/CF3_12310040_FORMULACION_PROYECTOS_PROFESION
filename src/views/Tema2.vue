@@ -81,12 +81,12 @@
               p(data-aos="fade-left") La puesta en marcha se define como el proceso mediante el cual se inicia la ejecución del proyecto, integrando los recursos disponibles y desarrollando las actividades planificadas de acuerdo con un cronograma establecido.
           p(data-aos="fade-left") Sin embargo, desde una perspectiva aplicada, este concepto implica mucho más que iniciar actividades. Involucra la capacidad de coordinar procesos, gestionar recursos y tomar decisiones en tiempo real, garantizando que el proyecto avance conforme a lo planificado. En términos prácticos, la puesta en marcha permite cumplir funciones esenciales dentro del desarrollo del proyecto. Entre las principales se encuentran las siguientes:              
           //- Inicio Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Activar el cronograma
@@ -163,10 +163,10 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -183,7 +183,7 @@
                         img(src='@/assets/curso/tema2/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Garantizar uso adecuado de recursos
                         p.card-text.text-center
-                        | Favorece eficiencia operativa y financiera.
+                        | Favorece la eficiencia operativa y financiera.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Contribuir al cumplimiento de objetivos
@@ -259,7 +259,7 @@
     p(data-aos="fade-left") En la práctica, responden a preguntas clave como: ¿cómo se ejecutarán las actividades?, ¿cómo se llegará al mercado?, ¿cómo se organizará el equipo de trabajo? y ¿qué mecanismos permitirán mantener el control del proyecto? Para comprender su aplicación integral, las estrategias operativas, comerciales y organizacionales pueden analizarse de manera conjunta en la siguiente tabla comparativa:
     //- Inicio Tabla
     .row.justify-content-center
-      .col-md-12
+      .col-md-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
           span  Tipos de estrategias para la puesta en marcha de proyectos
@@ -274,19 +274,19 @@
                 th(style="width: 20%") Resultado esperado
             tbody
               tr
-                td Operativa
+                td <b>Operativa</b>
                 td Organizar la ejecución técnica del proyecto y asegurar eficiencia en los procesos.
                 td Procesos de trabajo, secuencia de actividades, uso de recursos, estándares de calidad.
                 td <b>Paso 1.</b> Identificar actividades. <br> <b>Paso 2.</b> Definir secuencia. <br><b>Paso 3.</b> Establecer recursos. <br><b>Paso 4.</b> Definir procedimientos. <br><b>Paso 5.</b> Implementar controles.
                 td Mayor eficiencia operativa, reducción de errores y cumplimiento de estándares.
               tr
-                td Comercial
+                td <b>Comercial</b>
                 td Posicionar el proyecto en el mercado, atraer clientes y generar ingresos.
                 td Público objetivo, canales de venta, promoción, política de precios.
                 td <b>Paso 1.</b> Identificar mercado objetivo. <br><b>Paso 2.</b> Analizar competencia. <br><b>Paso 3.</b> Definir canales de venta. <br><b>Paso 4.</b> Diseñar promoción. <br><b>Paso 5.</b> Definir precios.
                 td Incremento de visibilidad, demanda y sostenibilidad financiera.
               tr
-                td Organizacional
+                td <b>Organizacional</b>
                 td Estructurar el equipo de trabajo y fortalecer la coordinación interna.
                 td Roles y responsabilidades, estructura organizativa, comunicación, seguimiento.
                 td <b>Paso 1.</b> Identificar necesidades del equipo. <br><b>Paso 2.</b> Definir roles. <br><b>Paso 3.</b> Establecer canales de comunicación. <br><b>Paso 4.</b> Definir seguimiento. <br><b>Paso 5.</b> Evaluar desempeño.
@@ -423,12 +423,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta04_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Actividades del proyecto
@@ -628,10 +628,10 @@
                   p.mb-0 Optimiza recursos humanos, técnicos y financieros. 
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
-                  p.mb-0 Reduce riesgos, al detectar retrasos o conflictos potenciales. 
+                  p.mb-0 Reduce riesgos al detectar retrasos o conflictos potenciales. 
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
-                  p.mb-0 Mejora la eficiencia, al coordinar actividades relacionadas. 
+                  p.mb-0 Mejora la eficiencia al coordinar actividades relacionadas. 
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
                   p.mb-0 Facilita la toma de decisiones mediante información actualizada.           
@@ -895,14 +895,11 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 <b>Por ejemplo</b>, durante la ejecución puede ser necesario ajustar tiempos, redistribuir recursos o modificar estrategias según las condiciones reales del entorno.
     p(data-aos="fade-left") En síntesis, una ejecución bien gestionada convierte la planificación en resultados concretos y aumenta significativamente la probabilidad de éxito del proyecto.
-    //- Título con imagen
-    .bg-full-width.mt-5
-      .px-4.px-md-5.pb-md-3
-      .titulo-con-imagen.mb-5(data-aos="fade-right")
-        .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Ejemplo aplicado de puesta en marcha
-    //- Título con imagen
+    Separador
+    //- Inicio Tema2.6
+    .row.mt-5
+      #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.6 Ejemplo aplicado de puesta en marcha
     .row.align-items-start.mb-10(data-aos="fade-left")  
       .col-lg-auto
         img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
@@ -968,10 +965,10 @@
     .row.bg-color-12
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes

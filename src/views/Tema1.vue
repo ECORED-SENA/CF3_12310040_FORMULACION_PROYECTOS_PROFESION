@@ -143,12 +143,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Disponibilidad de recursos
@@ -189,7 +189,7 @@
     //- Inicio Tema1.3
     .row.mt-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.3 Importancia de la financiación en los proyectos
+          h2 1.3 Fuentes de financiación
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7
       .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
         p.mb-0 Las fuentes de financiación corresponden a los mecanismos mediante los cuales se obtienen los recursos económicos necesarios para el desarrollo del proyecto. Estas fuentes pueden clasificarse según su origen, naturaleza y condiciones de acceso, lo que permite identificar diferentes alternativas de financiación de acuerdo con las características y necesidades del proyecto. La selección de una fuente de financiación requiere analizar variables clave que inciden directamente en la sostenibilidad financiera. Entre las principales se encuentran:
@@ -413,12 +413,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta05_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Documentación requerida
@@ -531,9 +531,9 @@
     p.mb-5(data-aos="fade-left") Para estructurar la documentación con criterio técnico, se recomienda desarrollar un proceso secuencial que garantice coherencia entre todos los componentes:
     //- Inicio Infografia
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-9
         PasosA.color-acento-contenido(tipo="n")
-          .row
+          .row.align-items-center
             .col-lg
               h3 Etapa 1
               p Consolidar la información general del proyecto: objetivos, actividades, recursos y alcance. 
@@ -541,15 +541,15 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea01_1.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea01_2.png').img125
             .col-lg.text-start
-              h3 Etapa 2
+              h3.mt-3 Etapa 2
               p Elaborar el presupuesto detallado con costos directos e indirectos. 
               p <b>Resultado esperado:</b> necesidades reales de inversión definidas.
-          .row
+          .row.align-items-center
             .col-lg
               h3 Etapa 3
               p Construir proyecciones de ingresos y gastos con supuestos sustentados. 
@@ -557,15 +557,15 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea01_3.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea01_4.png').img125
             .col-lg.text-start
-              h3 Etapa 4
+              h3.mt-3 Etapa 4
               p Diseñar el flujo de caja proyectado por periodos. 
               p <b>Resultado esperado:</b> capacidad de liquidez identificada.
-          .row
+          .row.align-items-center
             .col-lg
               h3 Etapa 5
               p Integrar toda la información en el plan de negocio o expediente financiero. 
@@ -792,7 +792,7 @@
     //- Inicio Tema1.5
     .row.mt-5
         #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.5 Presupuesto del proyecto: 
+          h2 1.5 Presupuesto del proyecto
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-7(data-aos="fade-right")
       .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
         p.mb-0 El presupuesto del proyecto constituye una herramienta fundamental dentro de la gestión financiera, ya que permite estimar, organizar y controlar los recursos económicos necesarios para la ejecución de las actividades definidas. Desde un enfoque técnico, no se limita a un listado de costos, sino que integra necesidades operativas, tiempos de ejecución y fuentes de financiación disponibles.
@@ -844,12 +844,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta08_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Optimización de recursos
@@ -950,37 +950,37 @@
       .col-12
         .p-5
           .row.justify-content-center
-            .col-lg-10
+            .col-lg-8
               PasosA.color-acento-contenido(tipo="n")
-                .row
+                .row.align-items-center
                   .col-lg
                     h3 A. Identificación
                     p Listar actividades del proyecto.
                   .col-auto
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_1.png').img125
-                .row
+                .row.align-items-center
                   .col-auto
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_2.png').img125
                   .col-lg.text-start
-                    h3 B. Recursos
+                    h3.mt-3 B. Recursos
                     p Determinar materiales, talento humano y servicios requeridos.
-                .row
+                .row.align-items-center
                   .col-lg
                     h3 C. Valoración
                     p Asignar valor económico a cada recurso.
                   .col-auto
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_3.png').img125
-                .row
+                .row.align-items-center
                   .col-auto
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema1/linea02_4.png').img125
                   .col-lg.text-start
-                    h3 D. Clasificación
+                    h3.mt-3 D. Clasificación
                     p Organizar costos en directos e indirectos.
-                .row
+                .row.align-items-center
                   .col-lg
                     h3 E. Consolidación
                     p Integrar la información al presupuesto general.
@@ -1033,12 +1033,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta10_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Equipos y maquinaria
@@ -1254,12 +1254,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta13_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Organización integral
@@ -1306,38 +1306,38 @@
           img.h-100.w-100(src='@/assets/curso/tema1/img38.png', style="object-fit: cover;")
     p(data-aos="fade-left") Su elaboración exige revisar cada componente del proyecto, identificar posibles riesgos y definir estrategias de desarrollo. En la práctica, un plan de negocio bien elaborado permite obtener beneficios concretos como los siguientes:          
     //- Inicio Infografia
-    .row.justify-content-center
-      .col-lg-10
+    .row.justify-content-center.mb-5
+      .col-lg-8
         PasosA.color-acento-contenido(tipo="n")
-          .row
+          .row.align-items-center
             .col-lg
               h3 Clarificación de objetivos
               p Define metas y dirección estratégica.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea03_1.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea03_2.png').img125
             .col-lg.text-start
-              h3 Identificación de oportunidades y riesgos
+              h3.mt-3 Identificación de oportunidades y riesgos
               p Facilita prevención y aprovechamiento de escenarios.
-          .row
+          .row.align-items-center
             .col-lg
               h3 Organización de recursos
               p Determina requerimientos humanos, técnicos y financieros.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea03_3.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea03_4.png').img125
             .col-lg.text-start
-              h3 Evaluación de sostenibilidad
+              h3.mt-3 Evaluación de sostenibilidad
               p Permite analizar permanencia en el tiempo.
-          .row
+          .row.align-items-center
             .col-lg
               h3 Mejor toma de decisiones
               p Brinda información estructurada para actuar con mayor seguridad.
@@ -1401,12 +1401,12 @@
     .row.bg-color-9
       .col-12
         .p-5
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta14_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Demostrar viabilidad
