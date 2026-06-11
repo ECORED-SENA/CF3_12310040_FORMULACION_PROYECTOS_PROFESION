@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_425986" data-name="Rectangle 425986" width="115" height="115" transform="translate(800.781 1954)" fill="#e8bad8" opacity="0.41"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_426751" data-name="Rectangle 426751" width="76.524" height="76.126" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1099697" data-name="Mask Group 1099697" transform="translate(-800.781 -1954)" clip-path="url(#clip-path)">
+    <g id="Group_1229039" data-name="Group 1229039" transform="translate(799.781 1960.273)">
+      <g id="Group_1229037" data-name="Group 1229037" transform="translate(1)">
+        <ellipse id="Ellipse_13052" data-name="Ellipse 13052" cx="28.658" cy="28.658" rx="28.658" ry="28.658" transform="translate(56.527 44.289)" fill="#ffc94a"/>
+        <ellipse id="Ellipse_13053" data-name="Ellipse 13053" cx="20.842" cy="20.842" rx="20.842" ry="20.842" fill="#ffc94a"/>
+      </g>
+      <g id="Group_1229663" data-name="Group 1229663" transform="translate(19.659 12.739)">
+        <g id="Group_1229660" data-name="Group 1229660" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <path id="Path_1532375" data-name="Path 1532375" d="M4.695,29.956c0-.616,20.729-15.793,20.729-15.793L46.595,32.113,67.323,4.695" transform="translate(2.253 2.253)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_1532376" data-name="Path 1532376" d="M11.936,23.9a5.468,5.468,0,1,1-5.468-5.468A5.468,5.468,0,0,1,11.936,23.9" transform="translate(0.48 8.846)" fill="#faaf40"/>
+          <ellipse id="Ellipse_13235" data-name="Ellipse 13235" cx="5.468" cy="5.468" rx="5.468" ry="5.468" transform="translate(1.48 27.28)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_1532377" data-name="Path 1532377" d="M25.943,12.866A5.468,5.468,0,1,1,20.475,7.4a5.468,5.468,0,0,1,5.468,5.468" transform="translate(7.201 3.55)" fill="#faaf40"/>
+          <ellipse id="Ellipse_13236" data-name="Ellipse 13236" cx="5.468" cy="5.468" rx="5.468" ry="5.468" transform="translate(22.209 10.947)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_1532378" data-name="Path 1532378" d="M40.249,25a5.468,5.468,0,1,1-5.468-5.468A5.468,5.468,0,0,1,40.249,25" transform="translate(14.066 9.37)" fill="#faaf40"/>
+          <ellipse id="Ellipse_13237" data-name="Ellipse 13237" cx="5.468" cy="5.468" rx="5.468" ry="5.468" transform="translate(43.38 28.897)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_1532379" data-name="Path 1532379" d="M54.256,6.468A5.468,5.468,0,1,1,48.788,1a5.468,5.468,0,0,1,5.468,5.468" transform="translate(20.788 0.48)" fill="#faaf40"/>
+          <ellipse id="Ellipse_13238" data-name="Ellipse 13238" cx="5.468" cy="5.468" rx="5.468" ry="5.468" transform="translate(64.109 1.48)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect id="Rectangle_426743" data-name="Rectangle 426743" width="10.051" height="23.502" transform="translate(1.48 51.144)" fill="#ec1c24"/>
+          <rect id="Rectangle_426744" data-name="Rectangle 426744" width="10.051" height="23.502" transform="translate(1.48 51.144)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect id="Rectangle_426745" data-name="Rectangle 426745" width="10.051" height="44.245" transform="translate(22.651 30.401)" fill="#ec1c24"/>
+          <rect id="Rectangle_426746" data-name="Rectangle 426746" width="10.051" height="44.245" transform="translate(22.651 30.401)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect id="Rectangle_426747" data-name="Rectangle 426747" width="10.051" height="23.502" transform="translate(43.822 51.144)" fill="#ec1c24"/>
+          <rect id="Rectangle_426748" data-name="Rectangle 426748" width="10.051" height="23.502" transform="translate(43.822 51.144)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect id="Rectangle_426749" data-name="Rectangle 426749" width="10.051" height="54.074" transform="translate(64.993 20.572)" fill="#ec1c24"/>
+          <rect id="Rectangle_426750" data-name="Rectangle 426750" width="10.051" height="54.074" transform="translate(64.993 20.572)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
