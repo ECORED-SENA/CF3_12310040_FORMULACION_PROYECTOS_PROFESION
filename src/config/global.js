@@ -213,11 +213,6 @@ export default {
       significado:
         'Grado de posibilidad de ejecutar un proyecto o asunto, considerando factores físicos, lógicos, económicos u otros que influyen en su realización.',
     },
-    {
-      termino: 'Viabilidad',
-      significado:
-        'Grado de posibilidad de ejecutar un proyecto o asunto, considerando factores físicos, lógicos, económicos u otros que influyen en su realización.',
-    },
   ],
   referencias: [
     {
@@ -296,6 +291,12 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania ',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
           cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',

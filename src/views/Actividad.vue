@@ -111,7 +111,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Estrategia comercial',
+              texto: 'Estrategia comercial.',
               esCorrecta: false,
             },
           ],

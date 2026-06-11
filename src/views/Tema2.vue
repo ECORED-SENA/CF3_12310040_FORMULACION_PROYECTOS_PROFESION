@@ -560,13 +560,13 @@
               ul.lista-ul.mb-0
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
-                  p.mb-0 <b>Hojas de cálculo</b> como Excel o Google Sheets, útiles para proyectos de baja o media complejidad. Permiten registrar actividades, fechas y responsables. 
+                  p.mb-0 <b>Hojas de cálculo</b> como Excel o <i>Google Sheets,</i> útiles para proyectos de baja o media complejidad. Permiten registrar actividades, fechas y responsables. 
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
                   p.mb-0 <b>Diagramas de Gantt</b>, adecuados para representar duración, secuencia y avance de actividades. 
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#3a6673")
-                  p.mb-0 <b>Herramientas digitales de gestión</b> como Trello, Asana o Notion, que facilitan asignación de tareas, coordinación del equipo y actualización en tiempo real.          
+                  p.mb-0 <b>Herramientas digitales de gestión</b> como <i>Trello, Asana o Notion,</i> que facilitan asignación de tareas, coordinación del equipo y actualización en tiempo real.          
       .col-lg-5.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/img15.png", data-aos="zoom-in" style="max-width: 458px")          
@@ -642,17 +642,11 @@
     //- Inicio Tema2.5
     .row.mt-5
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 2.5 Plan de puesta en marcha
-    .row.justify-content-center.align-items-stretch.mb-5.g-0
-      .col-lg-7.bg-color-7.d-flex.align-items-center.p-4.p-lg-5
-        p.mb-0 En la práctica, funciona como una guía operativa que orienta el desarrollo del proyecto en condiciones reales, facilitando la coordinación de actividades, la asignación de responsabilidades, el uso eficiente de los recursos y el seguimiento permanente del avance. Su correcta elaboración permite reducir la incertidumbre, anticipar riesgos y asegurar coherencia entre lo planificado y lo ejecutado.
-      .col-lg-5.d-flex
-        figure.mb-0.w-100
-          img.h-100.w-100(src='@/assets/curso/tema2/img19.png', alt='', style="object-fit: cover;")          
+        h2 2.5 Plan de puesta en marcha    
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/img20.png", data-aos="zoom-in" style="max-width: 458px")
+          img(src="@/assets/curso/tema2/img20.png", data-aos="zoom-in" style="width: 550px")
       .col-lg-7
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
