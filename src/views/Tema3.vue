@@ -29,7 +29,7 @@
     //- Inicio Tema3.1
     .row.mt-5
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.1 Relación entre financiación y ejecución
+          h2 3.1 Financiación y ejecución del proyecto
     .row.align-items-start.mb-10(data-aos="fade-left")  
       .col-lg-auto
         img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
